@@ -1,0 +1,221 @@
+//----------------------------------------------------------------------------------------------
+//
+//	SERVER INFORMATION POPUP MENU
+//
+//	List information pertinant to one server
+//
+//----------------------------------------------------------------------------------------------
+{
+	menuDef 
+	{
+		name					"saber_rgb"
+		visible					0
+		fullscreen				0
+		outOfBoundsClick									// this closes the window if it gets a click out of the rectangle
+		rect					0 0 640 480
+		focusColor				1 1 1 1								// Focus color for text and items
+		border					1
+		descX					320
+		descY					400
+		descScale				1
+		descColor				1 .682 0 .8
+		descAlignment				ITEM_ALIGN_CENTER		
+		popup
+
+		onOpen 
+		{
+		}
+
+		onESC 
+		{ 
+			play				"sound/interface/esc.wav" ; 
+			close				saber_rgb
+		}
+
+//----------------------------------------------------------------------------------------------
+//	MENU BACKGROUND
+//----------------------------------------------------------------------------------------------
+
+		itemDef 
+		{
+			name				rgbsliderboxshadow
+			group				rgbsaber1
+			style				WINDOW_STYLE_FILLED
+			rect				440 92 175 100
+			backcolor			0 0 0 0.5
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		itemDef 
+		{
+			name				rgbsliderbox
+			group				rgbsaber1
+			style				WINDOW_STYLE_FILLED
+			rect				415 160 210 100
+			backcolor			0 0 .35 .9
+			forecolor			1 1 1 1
+			border				0
+			bordercolor			0 0 .8 1
+			visible				1
+			decoration
+		}
+
+		itemDef 
+		{
+			name				rgbicondummy
+			descText			@MENUS_COLOR1_DESC
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				584 124 24 24
+			background			"gfx/menus/saber_icon_rgb"
+			forecolor			.75 .75 .75 1
+			border				1
+			bordersize			1
+			bordercolor			.33 .33 .5 1
+			visible				1
+			action 
+			{
+				play			"sound/interface/choose_blade.wav"
+				close			saber_rgb
+			}
+		}
+		
+		itemDef
+		{
+			name	colorred
+			type	ITEM_TYPE_NUMERICFIELD
+			text	"Red:"
+			cvar	"ui_rgb_saber_red"
+			rect	420 169 60 14
+			textalign ITEM_ALIGN_LEFT
+			textalignx	0
+			textaligny	-1
+			forecolor			.615 .615 .956 1
+			font	4
+			textscale	1
+			visible	1
+			decoration
+		}
+
+		itemDef 
+		{
+			name				colorredslider
+			type				ITEM_TYPE_SLIDER_INTEGER
+			cvarfloat			"ui_rgb_saber_red" 255 0 255
+			rect				495 169 200 14
+	   		textalign			ITEM_ALIGN_LEFT
+			textalignx			150
+			textaligny			0
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ;
+			}
+
+			mouseenter 
+			{ 
+//				show			highlight3
+			}
+			mouseexit 
+			{ 
+//				hide			highlight3
+			} 
+		}
+
+		itemDef
+		{
+			name	colorgreen
+			type	ITEM_TYPE_NUMERICFIELD
+			text	"Green:"
+			cvar	"ui_rgb_saber_green"
+			rect	420 200 60 14
+			textalign ITEM_ALIGN_LEFT
+			textalignx	0
+			textaligny	-1
+			forecolor			.615 .615 .956 1
+			font	4
+			textscale	1
+			visible	1
+			decoration
+		}
+
+		itemDef 
+		{
+			name				colorgreenslider
+			type				ITEM_TYPE_SLIDER_INTEGER
+			cvarfloat			"ui_rgb_saber_green" 255 0 255
+			rect				495 200 200 14
+	   		textalign			ITEM_ALIGN_LEFT
+			textalignx			150
+			textaligny			0
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ;
+			}
+
+			mouseenter 
+			{ 
+//				show			highlight3
+			}
+			mouseexit 
+			{ 
+//				hide			highlight3
+			} 
+		}
+
+		itemDef
+		{
+			name	colorblue
+			type	ITEM_TYPE_NUMERICFIELD
+			text	"Blue:"
+			cvar	"ui_rgb_saber_blue"
+			rect	420 231 60 14
+			textalign ITEM_ALIGN_LEFT
+			textalignx	0
+			textaligny	-1
+			forecolor			.615 .615 .956 1
+			font	4
+			textscale	1
+			visible	1
+			decoration
+		}
+
+		itemDef 
+		{
+			name				colorblueslider
+			type				ITEM_TYPE_SLIDER_INTEGER
+			cvarfloat			"ui_rgb_saber_blue" 255 0 255
+			rect				495 231 200 14
+	   		textalign			ITEM_ALIGN_LEFT
+			textalignx			150
+			textaligny			0
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ;
+			}
+
+			mouseenter 
+			{ 
+//				show			highlight3
+			}
+			mouseexit 
+			{ 
+//				hide			highlight3
+			} 
+		}
+
+	}
+}

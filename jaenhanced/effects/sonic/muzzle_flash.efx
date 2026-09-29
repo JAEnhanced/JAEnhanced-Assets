@@ -1,0 +1,26 @@
+// Simple muzzle flash effect
+
+sound
+{
+	sounds
+	[
+		sound/weapons/geonosian/sonic.wav
+	]
+}
+
+forcefeedback
+{
+	forces
+	[
+		fffx/weapons/blaster/fire
+	]
+}
+
+CameraShake
+{
+	life				50
+
+	intensity			0.3 0.4
+
+	radius				60
+}

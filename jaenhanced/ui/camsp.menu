@@ -1,0 +1,724 @@
+//----------------------------------------------------------------------------------------------
+// CamSP: Camera Utility for Jedi Knight Jedi Academy Single Player
+// By therfiles
+//----------------------------------------------------------------------------------------------
+{
+	menuDef 
+	{
+		name					"CamSP"
+		fullScreen				0							// MENU_TRUE				
+		rect					0 0 640 480						// Size and position of the menu
+		visible					0							// Visible on open
+		focusColor				1 1 1 1						// Focus color for text and items
+		descX					320
+		descY					444
+		descScale				1
+		descColor				1 1 1 1
+		descAlignment				ITEM_ALIGN_CENTER		
+		onESC 
+		{ 
+				play			"sound/interface/esc.wav" 					
+				uiScript		closedatapad					// Close menu				
+		}
+		onOpen
+		{ 
+				setcvar			cl_paused		"0"
+				exec			"helpusobi 1;cg_thirdperson 1"
+//				hide			show_values
+//				hide			show_resets
+//				show			hide_values
+//				show			hide_resets
+		}
+//----------------------------------------------------------------------------------------------
+//	CamSP Title
+//----------------------------------------------------------------------------------------------
+		itemDef 
+		{
+			name				camsp_title
+			group				camsp_options
+			style				WINDOW_STYLE_SHADER
+			background			"gfx/menus/menu_blendbox"
+			text				"CamSP Utility"
+      			rect				100 5 440 16
+			font				4
+			textscale			1
+			textalign			ITEM_ALIGN_CENTER		
+			textalignx			225
+			textaligny			-1	
+			forecolor			1 1 1 1
+      			visible				1 
+      			decoration 
+		}
+		itemDef 
+		{
+			name				hide_values
+			group				camsp_options
+			text				"Hide Values"
+			descText			"Hide numeric interpretations of the sliders"
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				170 20 130 24
+			textaligny			0
+			font				4
+			textscale			1
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			1
+			textalignx			65
+			forecolor			1 1 1 1
+			visible			1
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				hide			"values"
+				hide			"hide_values"
+				show			"show_values"
+			}	  	  
+		}
+		itemDef 
+		{
+			name				show_values
+			group				camsp_options
+			text				"Show Values"
+			descText			"Show numeric interpretations of the sliders"
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				170 20 130 24
+			textaligny			0
+			font				4
+			textscale			1
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			1
+			textalignx			65
+			forecolor			1 1 1 1
+			visible			0
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				show			"values"
+				show			"hide_values"
+				hide			"show_values"
+			}	  	  
+		}
+		itemDef 
+		{
+			name				hide_resets
+			group				camsp_options
+			text				"Hide Resets"
+			descText			"Hide reset buttons"
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				340 20 130 24
+			font				4
+			textscale			1
+			textaligny			0
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			1
+			textalignx			65
+			forecolor			1 1 1 1
+			visible			1	  	  
+			action 
+			{
+				play			"sound/interface/button1.wav" ; 
+				hide			"resets"
+				hide			"hide_resets"
+				show			"show_resets"
+			}
+		}
+		itemDef 
+		{
+			name				show_resets
+			group				camsp_options
+			text				"Show Resets"
+			descText			"Show reset buttons"
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				340 20 130 24
+			font				4
+			textscale			1
+			textaligny			0
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			1
+			textalignx			65
+			forecolor			1 1 1 1
+			visible			0	  	  
+			action 
+			{
+				play			"sound/interface/button1.wav" ; 
+				show			"resets"
+				show			"hide_resets"
+				hide			"show_resets"
+			}
+		}
+//----------------------------------------------------------------------------------------------
+//	CamSP Functions
+//----------------------------------------------------------------------------------------------
+		itemDef
+		{
+			name				commands
+			group				camsp_options
+			type				ITEM_TYPE_TEXT
+			rect				7 50 300 26
+			text				"COMMANDS"
+			font				4
+			forecolor			1 1 1 1
+			textscale			1
+			textalign			ITEM_ALIGN_LEFT
+			visible			1
+			decoration
+		}
+		itemDef 
+		{
+			name				screenshot
+			group				camsp_options
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				7 65 130 14
+			text				"Take Screenshot"
+			descText			"Hide user-interface and take screenshot"
+			font				4
+			textscale			1
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				uiScript		closedatapad			// Close menu
+				exec			"cg_drawcrosshair 0;cl_noprint 1;wait 10;screenshot_png silent;wait 10;cl_noprint 0;cg_drawcrosshair 1;echo ^7Screenshot Taken!;uimenu camsp"
+			}	  	  
+		}
+		itemDef 
+		{
+			name				npc_freezing
+			group				camsp_options
+			type				ITEM_TYPE_MULTI
+			cvar				"d_npcfreeze"
+			cvarFloatList			{  "No" 0 "Yes" 1 }
+			text				"Freeze Npcs? "
+			rect				7 80 340 14
+	   		textalign			ITEM_ALIGN_LEFT
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			descText			"Toggle NPC freezing"
+			action 
+			{ 
+				play			"sound/interface/button1.wav"
+				exec			"echo ^2NPC ^2Freezing ^2Toggled!"
+			}
+		}
+		itemDef 
+		{
+			name				fx_freezing
+			group				camsp_options
+			type				ITEM_TYPE_MULTI
+			cvar				"fx_freeze"
+			cvarFloatList			{  "No" 0 "Yes" 1 }
+			text				"Freeze Effects? "
+			rect				7 95 340 14
+	   		textalign			ITEM_ALIGN_LEFT
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			descText			"Toggle effects freezing (frozen effects will be suspended in mid-air)"
+			action 
+			{ 
+				play			"sound/interface/button1.wav"
+				exec			"echo ^3Effects ^3Freezing ^3Toggled!"
+			}
+		}
+		itemDef 
+		{
+			name				hide_player
+			group				camsp_options
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				7 110 130 14
+			text				"Toggle Player Visibility"
+			descText			"Hide or show the player"
+			font				4
+			textscale			1
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				exec			"runscript player camsp_player_hide"
+				exec			"echo ^4Player ^4Visibilty ^4Toggled!"
+			}	  	  
+		}
+		itemDef 
+		{
+			name				drawhud
+			group				camsp_options
+			type				ITEM_TYPE_MULTI
+			cvar				"cg_drawhud"
+			cvarFloatList			{  "No" 0 "Yes" 1 }
+			text				"Draw HUD? "
+			rect				7 125 340 14
+	   		textalign			ITEM_ALIGN_LEFT
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			descText			"Draw the Heads Up Display?"
+			action 
+			{ 
+				play			"sound/interface/button1.wav"
+				exec			"echo ^7HUD ^7Display ^7Toggled!"
+			}
+		}
+		itemDef 
+		{
+			name				camera_properties
+			group				camsp_options
+			type				ITEM_TYPE_MULTI
+			cvar				"cg_thirdpersoncameradamp"
+			cvarFloatList			{  "Default (Loose)" .3 "Drop Camera" 0 "Lock Camera (REQUIRED for Horizontal Movement)" 1 }
+			text				"Camera Tracking Level: "
+			rect				7 140 340 14
+	   		textalign			ITEM_ALIGN_LEFT
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			descText			"How closely the camera will track the player"
+			action 
+			{ 
+				play			"sound/interface/button1.wav"
+				exec			"cg_ThirdPersonHorzOffset 0"
+			}
+		}
+		itemDef
+		{
+			name				zooms
+			group				camsp_options
+			type				ITEM_TYPE_TEXT
+			rect				7 185 300 26
+			text				"ZOOM"
+			font				4
+			forecolor			1 1 1 1
+			textscale			1
+			textalign			ITEM_ALIGN_LEFT
+			visible			1
+			decoration
+		}
+		itemDef 
+		{
+			name				fov
+			group				camsp_options
+			type				ITEM_TYPE_SLIDER
+			text				"Freedom of View:"
+			cvarfloat			"cg_Fov" 0 0 200
+			rect				7 200 250 14
+	   		textalign			ITEM_ALIGN_LEFT
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			descText			"Freedom of View (Tunnel Vision) Default is 80"
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ;
+			}
+		}
+		itemDef
+		{
+			name				fov_value
+			group				values
+			type				ITEM_TYPE_TEXT
+			rect				250 200 340 14
+			cvar				"cg_fov"
+			font				4
+			forecolor			1 1 1 1
+			textscale			1
+			textalign			ITEM_ALIGN_LEFT
+			visible			1
+			decoration
+		}
+		itemDef 
+		{
+			name				fov_reset
+			group				resets
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				325 200 340 14
+			text				"Reset"
+			descText			"Reset Field of View to 80"
+			font				4
+			textscale			1
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				exec			"reset cg_fov"
+			}	  	  
+		}
+		itemDef 
+		{
+			name				range
+			group				camsp_options
+			type				ITEM_TYPE_SLIDER
+			text				"Range:"
+			cvarfloat			"cg_thirdPersonrange" 0 -500 500
+			rect				7 230 250 14
+	   		textalign			ITEM_ALIGN_LEFT
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			descText			"Camera's zoom property, Default is 80"
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ;
+			}
+		}
+		itemDef
+		{
+			name				range_value
+			group				values
+			type				ITEM_TYPE_TEXT
+			rect				250 230 340 14
+			cvar				"cg_thirdPersonrange"
+			font				4
+			forecolor			1 1 1 1
+			textscale			1
+			textalign			ITEM_ALIGN_LEFT
+			visible			1
+			decoration
+		}
+		itemDef 
+		{
+			name				range_reset
+			group				resets
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				325 230 340 14
+			text				"Reset"
+			descText			"Reset Range to 80"
+			font				4
+			textscale			1
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				exec			"reset cg_thirdpersonrange"
+			}	  	  
+		}
+		itemDef
+		{
+			name				pans
+			group				camsp_options
+			type				ITEM_TYPE_TEXT
+			rect				7 290 300 26
+			text				"PAN"
+			font				4
+			forecolor			1 1 1 1
+			textscale			1
+			textalign			ITEM_ALIGN_LEFT
+			visible			1
+			decoration
+		}
+		itemDef 
+		{
+			name				pitch
+			group				camsp_options
+			type				ITEM_TYPE_SLIDER
+			text				"Vertical Pan:"
+			cvarfloat			"cg_thirdpersonpitchoffset" 0 -180 180
+			rect				7 305 250 14
+	   		textalign			ITEM_ALIGN_LEFT
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			descText			"Vertical panning (Pitch) Default is 0"
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ;
+			}
+		}
+		itemDef
+		{
+			name				pitch_value
+			group				values
+			type				ITEM_TYPE_TEXT
+			rect				250 305 340 14
+			cvar				"cg_thirdpersonpitchoffset"
+			font				4
+			forecolor			1 1 1 1
+			textscale			1
+			textalign			ITEM_ALIGN_LEFT
+			visible			1
+			decoration
+		}
+		itemDef 
+		{
+			name				pitch_reset
+			group				resets
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				325 305 340 14
+			text				"Reset"
+			descText			"Reset Pitch to 80"
+			font				4
+			textscale			1
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				exec			"reset cg_thirdpersonpitchoffset"
+			}	  	  
+		}
+		itemDef 
+		{
+			name				angle
+			group				camsp_options
+			type				ITEM_TYPE_SLIDER
+			text				"Horizontal Pan:"
+			cvarfloat			"cg_thirdpersonangle" 0 -180 180
+			rect				7 335 250 14
+	   		textalign			ITEM_ALIGN_LEFT
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			descText			"Horizontal panning (Angle) Default is 0"
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ;
+			}
+		}
+		itemDef
+		{
+			name				angle_value
+			group				values
+			type				ITEM_TYPE_TEXT
+			rect				250 335 340 14
+			cvar				"cg_thirdpersonangle"
+			font				4
+			forecolor			1 1 1 1
+			textscale			1
+			textalign			ITEM_ALIGN_LEFT
+			visible			1
+			decoration
+		}
+		itemDef 
+		{
+			name				angle_reset
+			group				resets
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				325 335 340 14
+			text				"Reset"
+			descText			"Reset Angle to 0"
+			font				4
+			textscale			1
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				exec			"reset cg_thirdpersonangle"
+			}	  	  
+		}
+		itemDef
+		{
+			name				moves
+			group				camsp_options
+			type				ITEM_TYPE_TEXT
+			rect				7 380 300 26
+			text				"MOVE"
+			font				4
+			forecolor			1 1 1 1
+			textscale			1
+			textalign			ITEM_ALIGN_LEFT
+			visible			1
+			decoration
+		}
+		itemDef 
+		{
+			name				verticalmove
+			group				camsp_options
+			type				ITEM_TYPE_SLIDER
+			text				"Vertical Movement:"
+			cvarfloat			"cg_thirdpersonvertoffset" 0 -100 100
+			rect				7 395 250 14
+	   		textalign			ITEM_ALIGN_LEFT
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			descText			"Vertical moving, Default is 16"
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ;
+			}
+		}
+		itemDef
+		{
+			name				vertical_move_value
+			group				values
+			type				ITEM_TYPE_TEXT
+			rect				250 395 340 14
+			cvar				"cg_thirdpersonvertoffset"
+			font				4
+			forecolor			1 1 1 1
+			textscale			1
+			textalign			ITEM_ALIGN_LEFT
+			visible			1
+			decoration
+		}
+		itemDef 
+		{
+			name				vertical_move_reset
+			group				resets
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				325 395 340 14
+			text				"Reset"
+			descText			"Reset Vertical Movement to 16"
+			font				4
+			textscale			1
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				exec			"reset cg_thirdpersonvertoffset"
+			}	  	  
+		}
+		itemDef 
+		{
+			name				horizontalmove
+			group				camsp_options
+			type				ITEM_TYPE_SLIDER
+			text				"Horizontal Movement:"
+			cvarfloat			"cg_thirdpersonhorzoffset" 0 -100 100
+			cvarTest			"cg_thirdpersoncameradamp"
+			showCvar			{ 1 }
+			rect				7 425 250 14
+	   		textalign			ITEM_ALIGN_LEFT
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			descText			"Horizontal moving, Default is 0"
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ;
+			}
+		}
+		itemDef
+		{
+			name				horizontal_move_value
+			group				values
+			type				ITEM_TYPE_TEXT
+			rect				290 425 340 14
+			cvar				"cg_thirdpersonhorzoffset"
+			cvarfloat			"cg_thirdpersonhorzoffset" 0 -100 100
+			cvarTest			"cg_thirdpersoncameradamp"
+			showCvar			{ 1 }
+			font				4
+			forecolor			1 1 1 1
+			textscale			1
+			textalign			ITEM_ALIGN_LEFT
+			visible			1
+			decoration
+		}
+		itemDef 
+		{
+			name				horizontal_move_reset
+			group				resets
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				350 425 100 14
+			text				"Reset"
+			descText			"Reset Horizontal Movement to 0"
+			cvarTest			"cg_thirdpersoncameradamp"
+			showCvar			{ 1 }
+			font				4
+			textscale			1
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			1
+			forecolor			.615 .615 .956 1
+			visible				1
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				exec			"reset cg_thirdpersonhorzoffset"
+			}	  	  
+		}
+		itemDef 
+		{
+			name				horizontalmove_forbidden
+			group				camsp_options
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				7 425 340 14
+			text				"Horizontal Movement (Forbidden)"
+			descText			"To Unlock this feature, please set 'Camera Tracking' to 'Lock Camera'"
+			cvarTest			"cg_thirdpersoncameradamp"
+			hideCvar			{ 1 }
+			textstyle			1
+	   		textalign			ITEM_ALIGN_LEFT
+			font 				4
+			textscale 			1
+			forecolor			1 0 0 1
+			visible				1
+			action 
+			{ 
+				play				"sound/interface/esc.wav" ; 
+			}	  	  
+		}
+		itemDef 
+		{
+			name				exit
+			group				camsp_options
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				500 425 120 25 
+			text				"RESUME"
+			descText			"Exit CamSP Utility"
+			font				4
+			textscale			1
+			textalignx			60
+			textalign			ITEM_ALIGN_CENTER
+			forecolor			1 1 1 1
+			visible			1
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				uiScript		closedatapad			// Close menu				
+			}
+		}
+		
+	}
+}
+
+
+
+
+
+
+
+
+

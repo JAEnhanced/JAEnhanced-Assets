@@ -1,0 +1,390 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "Custom saber specific strings"
+
+REFERENCE           CHEATS
+LANG_ENGLISH        "CHEATS"
+
+REFERENCE           CHEATS_DESC
+LANG_ENGLISH        "Commands that give you special abilities."
+
+REFERENCE           ENABLE_CHEATS
+LANG_ENGLISH        "Enable cheats:"
+
+REFERENCE           ENABLE_CHEATS_DESC
+LANG_ENGLISH        "Allow cheats to be used. Must be on for the others on this list to work."
+
+REFERENCE           GOD
+LANG_ENGLISH        "God mode"
+
+REFERENCE           GOD_DESC
+LANG_ENGLISH        "Enable god mode (invincibility)."
+
+REFERENCE           NOTARGET
+LANG_ENGLISH        "No target mode"
+
+REFERENCE           NOTARGET_DESC
+LANG_ENGLISH        "Enemies don't target you (invisibility)."
+
+REFERENCE           UNDYING
+LANG_ENGLISH        "Undying mode"
+
+REFERENCE           UNDYING_DESC
+LANG_ENGLISH        "Gives 1000 health and shields."
+
+REFERENCE           GIVEALL
+LANG_ENGLISH        "Give all"
+
+REFERENCE           GIVEALL_DESC
+LANG_ENGLISH        "Give all weapons, items, health, and shields."
+
+REFERENCE           DISMEMBER
+LANG_ENGLISH        "Dismemberment:"
+
+REFERENCE           DISMEMBER_DESC
+LANG_ENGLISH        "Your lightsaber's realism settings when cutting body parts."
+
+REFERENCE           DISMEMBER1
+LANG_ENGLISH        "Minimal"
+
+REFERENCE           DISMEMBER1_DESC
+LANG_ENGLISH        "Only hands and feet get cut off often, corpses disappear after death."
+
+REFERENCE           DISMEMBER2
+LANG_ENGLISH        "Moderate"
+
+REFERENCE           DISMEMBER2_DESC
+LANG_ENGLISH        "Hands, feet, arms, legs get cut off often, corpses stick around longer."
+
+REFERENCE           DISMEMBER3
+LANG_ENGLISH        "Realistic"
+
+REFERENCE           DISMEMBER3_DESC
+LANG_ENGLISH        "Hands, feet, arms, legs, heads, and torsos get cut off very often. Corpses can be dismembered and never disappear."
+
+REFERENCE           SETFORCE
+LANG_ENGLISH        "Max Force levels"
+
+REFERENCE           SETFORCE_DESC
+LANG_ENGLISH        "Set all Force powers to max level."
+
+REFERENCE           DIFF
+LANG_ENGLISH        "Game difficulty:"
+
+REFERENCE           DIFF_DESC
+LANG_ENGLISH        "Set the game's difficulty"
+
+REFERENCE           CAMSP
+LANG_ENGLISH        "Photo Mode"
+
+REFERENCE           CAMSP_DESC
+LANG_ENGLISH        "/uimenu camsp - Gives camera control sliders to get a nice screenshot. "
+
+REFERENCE           CUSTOM_CHAR
+LANG_ENGLISH        "CHARACTER"
+
+REFERENCE           CUSTOM_CHAR_DESC
+LANG_ENGLISH        "Customize your character and lightsaber."
+
+REFERENCE           STAFF_SABER
+LANG_ENGLISH        "Staff Lightsabers"
+
+REFERENCE           STAFF_SABER_DESC
+LANG_ENGLISH        "Choose a double-bladed staff lightsaber."
+
+REFERENCE           EMITTER
+LANG_ENGLISH        "EMITTER"
+
+REFERENCE           POMMEL
+LANG_ENGLISH        "POMMEL"
+
+REFERENCE           HANDLE
+LANG_ENGLISH        "HANDLE"
+
+REFERENCE			BUTTONS
+LANG_ENGLISH		"BUTTONS"
+
+REFERENCE			BODY
+LANG_ENGLISH		"BODY"
+
+REFERENCE			CUST_LIGHTSABER
+LANG_ENGLISH		"LIGHTSABER"
+
+REFERENCE			CUST_LIGHTSABER_DESC
+LANG_ENGLISH		"Customize your lightsaber."
+
+REFERENCE           EMITTER_DESC
+LANG_ENGLISH        "Choose the emitter."
+
+REFERENCE           POMMEL_DESC
+LANG_ENGLISH        "Choose the pommel."
+
+REFERENCE           HANDLE_DESC
+LANG_ENGLISH        "Choose the handle."
+
+REFERENCE			BUTTONS_DESC
+LANG_ENGLISH		"Choose the buttons."
+
+REFERENCE			BODY_DESC
+LANG_ENGLISH		"Choose the body."
+
+REFERENCE			EWEB_EXIT
+LANG_ENGLISH		"Press 'JUMP' to exit.\nPress 'USE FORCE' to detach gun."
+
+REFERENCE			INGAME_STASIS2
+LANG_ENGLISH		"Stasis"
+
+REFERENCE			INGAME_BLINDING2
+LANG_ENGLISH		"Blinding"
+
+REFERENCE			INGAME_DESTRUCTION2
+LANG_ENGLISH		"Destruction"
+
+REFERENCE			INGAME_INSANITY2
+LANG_ENGLISH		"Insanity"
+
+REFERENCE			INGAME_REPULSE2
+LANG_ENGLISH		"Repulse"
+
+REFERENCE			INGAME_WEAPON_NOGHRI_STICK
+LANG_ENGLISH		"Noghri Stick"
+
+REFERENCE			INGAME_WEAPON_TUSKEN_RIFLE
+LANG_ENGLISH		"Tusken Rifle"
+
+REFERENCE			INGAME_WEAPON_SONIC_BLASTER
+LANG_ENGLISH		"Geonosian Sonic Blaster"
+
+REFERENCE			INGAME_WEAPON_E5
+LANG_ENGLISH		"E-5 Carbine"
+
+REFERENCE			INGAME_WEAPON_DC15S
+LANG_ENGLISH		"DC-15S Carbine"
+
+REFERENCE			INGAME_WEAPON_DC15A
+LANG_ENGLISH		"DC-15A Rifle"
+
+REFERENCE			INGAME_WEAPON_Z6
+LANG_ENGLISH		"Z-6 Rotary Cannon"
+
+REFERENCE           INGAME_MELEE_DESC
+LANG_ENGLISH        "Melee  \nWhen applied to a face a fist causes damage.\nPrimary Fire - Throws a punch.\nSecondary Fire - Throws a punch.\nAmmo Type - N/A"
+
+REFERENCE           INGAME_TUSKEN_RIFLE_DESC
+LANG_ENGLISH        "Tusken Rifle  \nThe Tusken Rifle fires a highly damaging projectile.\nPrimary Fire - Melee attack.\nSecondary Fire - Fires a sniper projectile shot that is highly damaging.\nAmmo Type - Power cell"
+
+REFERENCE           INGAME_NOGHRI_STICK_DESC
+LANG_ENGLISH        "Noghri Stick  \nThe Noghri Stick fires a ball of poisonous gas.\nPrimary Fire - Fires a ball of poisionous gas that does damage over time.\nSecondary Fire - Melee attack.\nAmmo Type - Power cell"
+
+REFERENCE           INGAME_SONIC_BLASTER_DESC
+LANG_ENGLISH        "Geonosian Sonic Blaster  \nThe Sonic Blaster fires a wave of sound.\nPrimary Fire - Fires a concentrated shot.\nSecondary Fire - Fires a dispersed sound wave that knocks over enemies.\nAmmo Type - Power cell"
+
+REFERENCE           INGAME_E5_CARBINE_DESC
+LANG_ENGLISH        "E-5 Carbine  \nThe E-5 Carbine has similar accuracy and damage to an E-11 Blaster Rifle.\nPrimary Fire - Slow, single shot with moderate accuracy and great damage.\nSecondary Fire - Rapid, burst fire with low accuracy and expanded firing area.\nAmmo Type - Blaster Pack"
+
+REFERENCE           INGAME_DC15S_CARBINE_DESC
+LANG_ENGLISH        "DC-15S Carbine  \nThe DC-15S Carbine has similar accuracy and damage to an E-11 Blaster Rifle.\nPrimary Fire - Slow, single shot with moderate accuracy and great damage.\nSecondary Fire - Rapid, burst fire with low accuracy and expanded firing area.\nAmmo Type - Blaster Pack"
+
+REFERENCE           INGAME_DC15A_RIFLE_DESC
+LANG_ENGLISH        "DC-15A Rifle  \nThe DC-15A Rifle has slow rate of fire, but does heavy damage.\nPrimary Fire - Very slow, single shot with good accuracy and great damage.\nSecondary Fire - Slow single shot with good accuracy, great damage, and heavier ammo drain.\nAmmo Type - Blaster Pack"
+
+REFERENCE           INGAME_Z6_ROTARY_DESC
+LANG_ENGLISH        "Z-6 Rotary Cannon  \nThe Z-6 Rotary Cannon has an extremely high rate of fire and works well in a suppressive capacity. \nPrimary Fire - Fully automatic blaster fire.\nSecondary Fire - Slower rate of fire to conserve ammunition.\nAmmo Type - Blaster Pack"
+
+REFERENCE			SFX_SABERS
+LANG_ENGLISH		"SFX Sabers:"
+
+REFERENCE			SFX_SABERS_DESC
+LANG_ENGLISH		"AJL's SFX lightsaber blades."
+
+REFERENCE			MPMOVEMENT
+LANG_ENGLISH		"MP Movement:"
+
+REFERENCE			MPMOVEMENT_DESC
+LANG_ENGLISH		"Multiplayer-style bunnyhopping."
+
+REFERENCE			FLIPPED_HOLSTERS
+LANG_ENGLISH		"Flipped Holsters:"
+
+REFERENCE			FLIPPED_HOLSTERS_DESC
+LANG_ENGLISH		"Lightsabers are holstered upside down."
+
+REFERENCE			IGNITE_FLARE
+LANG_ENGLISH		"Ignition Flare:"
+
+REFERENCE			IGNITE_FLARE_DESC
+LANG_ENGLISH		"Display a flare when a lightsaber is ignited."
+
+REFERENCE			IGNITE_TWIRL
+LANG_ENGLISH		"Ignition Twirl:"
+
+REFERENCE			IGNITE_TWIRL_DESC
+LANG_ENGLISH		"Twirl the lightsaber when turning on and off."
+
+REFERENCE			JKENHANCED
+LANG_ENGLISH		"JA: Enhanced"
+
+REFERENCE			JKENHANCED_OPTIONS_DESC
+LANG_ENGLISH		"Configure JA: Enhanced options."
+
+REFERENCE			STASIS
+LANG_ENGLISH		"Stasis:"
+
+REFERENCE			INSANITY
+LANG_ENGLISH		"Insanity:"
+
+REFERENCE			DESTRUCTION
+LANG_ENGLISH		"Destruction:"
+
+REFERENCE			BLINDING
+LANG_ENGLISH		"Blinding:"
+
+REFERENCE			REPULSE
+LANG_ENGLISH		"Repulse:"
+
+REFERENCE			USES_STASIS_FORCE_ABILITY
+LANG_ENGLISH		"Uses Force Stasis ability."
+
+REFERENCE			USES_INSANITY_FORCE_ABILITY
+LANG_ENGLISH		"Uses Force Insanity ability."
+
+REFERENCE			USES_DESTRUCTION_FORCE_ABILITY
+LANG_ENGLISH		"Uses Force Destruction ability."
+
+REFERENCE			USES_BLINDING_FORCE_ABILITY
+LANG_ENGLISH		"Uses Force Blinding ability."
+
+REFERENCE			USES_REPULSE_FORCE_ABILITY
+LANG_ENGLISH		"Uses Force Repulse ability."
+
+REFERENCE			SABER_THROW
+LANG_ENGLISH		"Saber Throw:"
+
+REFERENCE			USES_SABER_THROW
+LANG_ENGLISH		"Throws lightsaber."
+
+REFERENCE			INGAME_FORCE_STASIS_DESC
+LANG_ENGLISH		"Force Stasis\nDuration: Variable\nArea of Effect: Objects or persons\nEffect: Allows Jedi to paralyse a living being or droid\n\n"
+
+REFERENCE			INGAME_FORCE_DESTRUCTION_DESC
+LANG_ENGLISH		"Force Destruction\nDuration: Instant\nArea of Effect: Projectile\nEffect: Allows Jedi to launch a projectile of force energy\n\n"
+
+REFERENCE			INGAME_FORCE_INSANITY_DESC
+LANG_ENGLISH		"Force Insanity\nDuration: Variable\nArea of Effect: Living persons only\nEffect: Allows Jedi to wrack mind of an enemy\n\n"
+
+REFERENCE			INGAME_FORCE_REPULSE_DESC
+LANG_ENGLISH		"Force Repulse\nDuration: Instant\nArea of Effect: Near Jedi\nEffect: Allows Jedi to push and damage nearby enemies\n\n"
+
+REFERENCE           INGAME_FORCE_STASIS_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi paralyses a single enemy for 5 seconds."
+
+REFERENCE           INGAME_FORCE_STASIS_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi paralyses a single enemy for 10 seconds."
+
+REFERENCE           INGAME_FORCE_STASIS_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi paralyses a single enemy for 15 seconds."
+
+REFERENCE           INGAME_FORCE_INSANITY_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi wracks the mind of a single enemy for 5 seconds."
+
+REFERENCE           INGAME_FORCE_INSANITY_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi wracks the mind of a single enemy for 10 seconds."
+
+REFERENCE           INGAME_FORCE_INSANITY_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi wracks the mind of a single enemy for 15 seconds. The enemy then dies."
+
+REFERENCE           INGAME_FORCE_DESTRUCTION_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi launches an orb of force energy."
+
+REFERENCE           INGAME_FORCE_DESTRUCTION_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi launches a more powerful orb of force energy."
+
+REFERENCE           INGAME_FORCE_DESTRUCTION_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi launches an extremely dangerous orb of force energy."
+
+REFERENCE           INGAME_FORCE_REPULSE_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi pushes enemies within a small radius. If power is charged, enemies take damage depending on charge time."
+
+REFERENCE           INGAME_FORCE_REPULSE_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi pushes enemies within a medium radius. If power is charged, enemies take damage depending on charge time."
+
+REFERENCE           INGAME_FORCE_REPULSE_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi pushes enemies within a large radius. If power is charged, enemies take damage depending on charge time."
+
+REFERENCE			TRUE_GUNS
+LANG_ENGLISH		"TrueView Guns:"
+
+REFERENCE			FPLS
+LANG_ENGLISH		"TrueView Lightsaber:"
+
+REFERENCE			TRUE_GUNS_DESC
+LANG_ENGLISH		"TrueView first person view for guns."
+
+REFERENCE			FPLS_DESC
+LANG_ENGLISH		"First person lightsaber option using TrueView."
+
+REFERENCE			EDIT_CUSTOM
+LANG_ENGLISH		"Build your lightsaber."
+
+REFERENCE			EDIT_CUSTOM2
+LANG_ENGLISH		"Build your lightsaber."
+
+REFERENCE			CUSTOM_SABER_X
+LANG_ENGLISH		"COMPLETE"
+
+REFERENCE			CUSTOM_SABER_CLOSE
+LANG_ENGLISH		"Finish building lightsaber."
+
+REFERENCE			FBOS
+LANG_ENGLISH		"Framebuffer objects:"
+
+REFERENCE			FBOS_DESC
+LANG_ENGLISH		"Toggle framebuffer objects on or off."
+
+REFERENCE			RENDERER
+LANG_ENGLISH		"Renderer:"
+
+REFERENCE			VANILLA
+LANG_ENGLISH		"Vanilla"
+
+REFERENCE			RENDSAURUS
+LANG_ENGLISH		"rendsaurus"
+
+REFERENCE			RENDERER_DESC
+LANG_ENGLISH		"Select which renderer is used."
+
+REFERENCE           ROTATE_DESC
+LANG_ENGLISH        "Click and drag to rotate.
+
+REFERENCE           IDLEANIMS
+LANG_ENGLISH        "Idle Animations:"
+
+REFERENCE           IDLEANIMS_DESC
+LANG_ENGLISH        "Play idle animations when no input detected"
+
+REFERENCE           RATIOFIX
+LANG_ENGLISH        "Widescreen Fix:"
+
+REFERENCE           RATIOFIX_DESC
+LANG_ENGLISH        "Correct UI aspect ratio based on current resolution."
+
+REFERENCE           IGNITIONSPEED
+LANG_ENGLISH        "Saber ignition speed:"
+
+REFERENCE           IGNITIONSPEED_DESC
+LANG_ENGLISH        "Scale speed at which lightsaber ignites"
+
+ENDMARKER
+
+

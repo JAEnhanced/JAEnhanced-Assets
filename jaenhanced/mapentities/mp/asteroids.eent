@@ -1,0 +1,17 @@
+{
+"angle" "90"
+"origin" "36640 -37744 8136"
+"classname" "info_player_start"
+}
+
+{
+"angle" "90"
+"origin" "36840 -37744 8236"
+"classname" "NPC_Luke"
+}
+
+{
+"origin" "36840 -37744 8336"
+"classname" "misc_radar_icon"
+"icon" "gfx/mp/siegeicons/desert/weapon_recharge"
+}
