@@ -3090,7 +3090,6 @@
 				"Jedi Padawan"		0  
 				"Jedi" 	1 
 				"Jedi Knight"		2
-				"Jedi Master"		3
 			}
 			rect				260 328 340 14
 	   		textalign			ITEM_ALIGN_RIGHT
@@ -3108,6 +3107,38 @@
 			mouseexit 
 			{ 
 				hide			highlight11
+			}
+			action 
+			{
+				play			"sound/interface/button1.wav"
+			} 
+		}
+
+		itemDef 
+		{			
+			name				jedimaster
+			group				jkenhanced
+      			type				ITEM_TYPE_MULTI
+			text				@SPMOD_JEDIMASTER
+			descText			@SPMOD_JEDIMASTER_DESC
+			cvar				"handicap"	
+			cvarFloatList			{  @MENUS_OFF 100 @MENUS_ON 50 }
+			rect				260 342 340 14
+	   		textalign			ITEM_ALIGN_RIGHT
+			textalignx			174
+			textaligny			0
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				0
+
+			mouseenter 
+			{ 
+				show			highlight12
+			}
+			mouseexit 
+			{ 
+				hide			highlight12
 			}
 			action 
 			{

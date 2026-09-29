@@ -83,7 +83,13 @@ REFERENCE           DIFF
 LANG_ENGLISH        "Game difficulty:"
 
 REFERENCE           DIFF_DESC
-LANG_ENGLISH        "Set the game's difficulty"
+LANG_ENGLISH        "Set the game's difficulty. For Jedi Master, choose Jedi Knight and turn on Jedi Master"
+
+REFERENCE           JEDIMASTER
+LANG_ENGLISH        "Jedi Master (half health):"
+
+REFERENCE           JEDIMASTER_DESC
+LANG_ENGLISH        "Jedi Master difficulty is Jedi Knight with half health"
 
 REFERENCE           CAMSP
 LANG_ENGLISH        "Photo Mode"
