@@ -22,6 +22,7 @@
 			uiScript			getvideosetup ;			
 			hide				applyChanges ;
 			hide				video2 ;
+			hide				video3 ;
 			hide				vidrestart	;
 			hide				sound	;
 			hide				options ;
@@ -498,6 +499,7 @@
 				show 			video ;
 				hide			applyChanges ;
 				hide			video2 ;
+				hide			video3 ;
 				hide			vidrestart	;
 				hide			sound	;
 				hide			options ;
@@ -605,6 +607,7 @@
 				hide 			video ;
 				hide			applyChanges ;
 				hide			video2 ;
+				hide			video3 ;
 				hide			vidrestart	;
 				show			sound	;
 				hide			options ;
@@ -658,6 +661,7 @@
 				hide 			video ;
 				hide			applyChanges ;
 				hide			video2 ;
+				hide			video3 ;
 				hide			vidrestart	;
 				hide			sound	;
 				show			options ;
@@ -713,6 +717,7 @@
 				hide 			video ;
 				hide			applyChanges ;
 				hide			video2 ;
+				hide			video3 ;
 				hide			vidrestart	;
 				hide			sound	;
 				hide			options ;
@@ -767,6 +772,7 @@
 				hide 			video ;
 				hide			applyChanges ;
 				hide			video2 ;
+				hide			video3 ;
 				hide			vidrestart	;
 				hide			sound	;
 				hide			options ;
@@ -821,6 +827,7 @@
 				hide 			video ;
 				hide			applyChanges ;
 				hide			video2 ;
+				hide			video3 ;
 				hide			vidrestart	;
 				hide			sound	;
 				hide			options ;
@@ -1465,6 +1472,7 @@
 			cvarStrList		
 			{ 
 				@SPMOD_VANILLA		"rdcustomsp-vanilla"
+				@SPMOD_REND2		"rdcustomsp-rend2"
 			}
 			descText			@SPMOD_RENDERER_DESC
 
@@ -1488,6 +1496,450 @@
 		}
 
 
+
+		itemDef
+		{
+			name				rend2_settings
+			group				video
+			type				ITEM_TYPE_BUTTON
+			text				@SPMOD_REND2_SETTINGS
+			rect				260 356 340 14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			170
+			textaligny			0
+			textstyle			1
+			font 				4
+			textscale 			1
+			forecolor			1 .682 0 1
+			visible				0
+			descText			@SPMOD_REND2_SETTINGS_DESC
+			cvarTest			"cl_renderer"
+			hideCvar			{ "rdcustomsp-vanilla" }
+
+			mouseenter
+			{
+				show			highlight13
+			}
+			mouseexit
+			{
+				hide			highlight13
+			}
+			action
+			{
+				play			"sound/interface/button1.wav" ;
+				hide			video ;
+				show			video3
+			}
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//	REND2 SETTINGS (video3)
+		//----------------------------------------------------------------------------------------------
+		itemDef
+		{
+			name				rend2_hdr
+			group				video3
+			type				ITEM_TYPE_MULTI
+			text				@SPMOD_HDR
+			rect				260 188 340 14
+			textalign			ITEM_ALIGN_RIGHT
+			textalignx			174
+			textaligny			0
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				0
+			descText			@SPMOD_HDR_DESC
+			cvar				"r_hdr"
+			cvarFloatList		{  @MENUS_OFF 0 @MENUS_ON 1 }
+
+			mouseenter
+			{
+				show			highlight1
+			}
+			mouseexit
+			{
+				hide			highlight1
+			}
+			action
+			{
+				play			"sound/interface/button1.wav" ;
+				setcvar			ui_r_modified	1 ;
+				show			applyChanges
+			}
+		}
+
+		itemDef
+		{
+			name				rend2_tonemap
+			group				video3
+			type				ITEM_TYPE_MULTI
+			text				@SPMOD_TONEMAP
+			rect				260 202 340 14
+			textalign			ITEM_ALIGN_RIGHT
+			textalignx			174
+			textaligny			0
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				0
+			descText			@SPMOD_TONEMAP_DESC
+			cvar				"r_toneMap"
+			cvarFloatList		{  @MENUS_OFF 0 @MENUS_ON 1 }
+
+			mouseenter
+			{
+				show			highlight2
+			}
+			mouseexit
+			{
+				hide			highlight2
+			}
+			action
+			{
+				play			"sound/interface/button1.wav" ;
+				setcvar			ui_r_modified	1 ;
+				show			applyChanges
+			}
+		}
+
+		itemDef
+		{
+			name				rend2_autoexposure
+			group				video3
+			type				ITEM_TYPE_MULTI
+			text				@SPMOD_AUTOEXPOSURE
+			rect				260 216 340 14
+			textalign			ITEM_ALIGN_RIGHT
+			textalignx			174
+			textaligny			0
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				0
+			descText			@SPMOD_AUTOEXPOSURE_DESC
+			cvar				"r_autoExposure"
+			cvarFloatList		{  @MENUS_OFF 0 @MENUS_ON 1 }
+
+			mouseenter
+			{
+				show			highlight3
+			}
+			mouseexit
+			{
+				hide			highlight3
+			}
+			action
+			{
+				play			"sound/interface/button1.wav"
+			}
+		}
+
+		itemDef
+		{
+			name				rend2_hdrlightmaps
+			group				video3
+			type				ITEM_TYPE_MULTI
+			text				@SPMOD_HDR_LIGHTMAPS
+			rect				260 230 340 14
+			textalign			ITEM_ALIGN_RIGHT
+			textalignx			174
+			textaligny			0
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				0
+			descText			@SPMOD_HDR_LIGHTMAPS_DESC
+			cvar				"r_floatLightmap"
+			cvarFloatList		{  @MENUS_OFF 0 @MENUS_ON 1 }
+			cvarTest			"r_hdr"
+			hideCvar			{ 0 }
+
+			mouseenter
+			{
+				show			highlight4
+			}
+			mouseexit
+			{
+				hide			highlight4
+			}
+			action
+			{
+				play			"sound/interface/button1.wav" ;
+				setcvar			ui_r_modified	1 ;
+				show			applyChanges
+			}
+		}
+
+		itemDef
+		{
+			name				rend2_deluxemapping
+			group				video3
+			type				ITEM_TYPE_MULTI
+			text				@SPMOD_DELUXEMAPPING
+			rect				260 244 340 14
+			textalign			ITEM_ALIGN_RIGHT
+			textalignx			174
+			textaligny			0
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				0
+			descText			@SPMOD_DELUXEMAPPING_DESC
+			cvar				"r_deluxeMapping"
+			cvarFloatList		{  @MENUS_OFF 0 @MENUS_ON 1 }
+
+			mouseenter
+			{
+				show			highlight5
+			}
+			mouseexit
+			{
+				hide			highlight5
+			}
+			action
+			{
+				play			"sound/interface/button1.wav" ;
+				setcvar			ui_r_modified	1 ;
+				show			applyChanges
+			}
+		}
+
+		itemDef
+		{
+			name				rend2_deluxespecular
+			group				video3
+			type				ITEM_TYPE_SLIDER
+			text				@SPMOD_DELUXE_SPECULAR
+			rect				260 258 340 14
+			textalign			ITEM_ALIGN_RIGHT
+			textalignx			174
+			textaligny			0
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				0
+			descText			@SPMOD_DELUXE_SPECULAR_DESC
+			cvarfloat			"r_deluxeSpecular" 1 0.0 1.0
+			cvarTest			"r_deluxeMapping"
+			hideCvar			{ 0 }
+
+			mouseenter
+			{
+				show			highlight6
+			}
+			mouseexit
+			{
+				hide			highlight6
+			}
+			action
+			{
+				play			"sound/interface/button1.wav"
+			}
+		}
+
+		itemDef
+		{
+			name				rend2_cubemapping
+			group				video3
+			type				ITEM_TYPE_MULTI
+			text				@SPMOD_CUBEMAPPING
+			rect				260 272 340 14
+			textalign			ITEM_ALIGN_RIGHT
+			textalignx			174
+			textaligny			0
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				0
+			descText			@SPMOD_CUBEMAPPING_DESC
+			cvar				"r_cubeMapping"
+			cvarFloatList		{  @MENUS_OFF 0 @MENUS_ON 1 }
+
+			mouseenter
+			{
+				show			highlight7
+			}
+			mouseexit
+			{
+				hide			highlight7
+			}
+			action
+			{
+				play			"sound/interface/button1.wav" ;
+				setcvar			ui_r_modified	1 ;
+				show			applyChanges
+			}
+		}
+
+		itemDef
+		{
+			name				rend2_cubemapbounces
+			group				video3
+			type				ITEM_TYPE_MULTI
+			text				@SPMOD_CUBEMAP_BOUNCES
+			rect				260 286 340 14
+			textalign			ITEM_ALIGN_RIGHT
+			textalignx			174
+			textaligny			0
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				0
+			descText			@SPMOD_CUBEMAP_BOUNCES_DESC
+			cvar				"r_cubeMappingBounces"
+			cvarFloatList		{  "0" 0 "1" 1 "2" 2 }
+			cvarTest			"r_cubeMapping"
+			hideCvar			{ 0 }
+
+			mouseenter
+			{
+				show			highlight8
+			}
+			mouseexit
+			{
+				hide			highlight8
+			}
+			action
+			{
+				play			"sound/interface/button1.wav" ;
+				setcvar			ui_r_modified	1 ;
+				show			applyChanges
+			}
+		}
+
+		itemDef
+		{
+			name				rend2_parallax
+			group				video3
+			type				ITEM_TYPE_MULTI
+			text				@SPMOD_PARALLAX
+			rect				260 300 340 14
+			textalign			ITEM_ALIGN_RIGHT
+			textalignx			174
+			textaligny			0
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				0
+			descText			@SPMOD_PARALLAX_DESC
+			cvar				"r_parallaxMapping"
+			cvarFloatList		{  @MENUS_OFF 0 @MENUS_ON 1 }
+
+			mouseenter
+			{
+				show			highlight9
+			}
+			mouseexit
+			{
+				hide			highlight9
+			}
+			action
+			{
+				play			"sound/interface/button1.wav"
+			}
+		}
+
+		itemDef
+		{
+			name				rend2_gennormalmaps
+			group				video3
+			type				ITEM_TYPE_MULTI
+			text				@SPMOD_GEN_NORMALMAPS
+			rect				260 314 340 14
+			textalign			ITEM_ALIGN_RIGHT
+			textalignx			174
+			textaligny			0
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				0
+			descText			@SPMOD_GEN_NORMALMAPS_DESC
+			cvar				"r_genNormalMaps"
+			cvarFloatList		{  @MENUS_OFF 0 @MENUS_ON 1 }
+
+			mouseenter
+			{
+				show			highlight10
+			}
+			mouseexit
+			{
+				hide			highlight10
+			}
+			action
+			{
+				play			"sound/interface/button1.wav" ;
+				setcvar			ui_r_modified	1 ;
+				show			applyChanges
+			}
+		}
+
+		itemDef
+		{
+			name				rend2_ssao
+			group				video3
+			type				ITEM_TYPE_MULTI
+			text				@SPMOD_SSAO
+			rect				260 328 340 14
+			textalign			ITEM_ALIGN_RIGHT
+			textalignx			174
+			textaligny			0
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				0
+			descText			@SPMOD_SSAO_DESC
+			cvar				"r_ssao"
+			cvarFloatList		{  @MENUS_OFF 0 @MENUS_ON 1 }
+
+			mouseenter
+			{
+				show			highlight11
+			}
+			mouseexit
+			{
+				hide			highlight11
+			}
+			action
+			{
+				play			"sound/interface/button1.wav" ;
+				setcvar			ui_r_modified	1 ;
+				show			applyChanges
+			}
+		}
+
+		itemDef
+		{
+			name				rend2_back
+			group				video3
+			type				ITEM_TYPE_BUTTON
+			text				@SPMOD_REND2_BACK
+			rect				260 356 340 14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			170
+			textaligny			0
+			textstyle			1
+			font 				4
+			textscale 			1
+			forecolor			1 .682 0 1
+			visible				0
+			descText			@SPMOD_REND2_BACK_DESC
+
+			mouseenter
+			{
+				show			highlight13
+			}
+			mouseexit
+			{
+				hide			highlight13
+			}
+			action
+			{
+				play			"sound/interface/button1.wav" ;
+				hide			video3 ;
+				show			video
+			}
+		}
 
 		// APPLY CHANGES BUTTON
 		itemDef 
@@ -1535,6 +1987,7 @@
 				setfocus 		vidrestart_no ;
 				hide			video ;
 				hide			video2 ;
+				hide			video3 ;
 				hide			applybutton_glow ;
 				hide 			applyChanges ;
 			}
@@ -1687,6 +2140,7 @@
 				hide 			vidrestart ;
 				show			video ;
 				hide			video2 ;
+				hide			video3 ;
 				show			applyChanges ;
 				hide			vidrestart_yes_button ;
 				hide			vidrestart_no_button ;
@@ -1977,40 +2431,41 @@
 			} 
 		}
 		
-		itemDef 
-		{			
-			name				fbos
+		itemDef
+		{
+			name				antialiasing
 			group				video2
-      		type				ITEM_TYPE_MULTI
-			text				@SPMOD_FBOS
-			cvar				"r_FBOs"	
-			cvarFloatList		{  @MENUS_OFF 0 @MENUS_ON 1 }
+			type				ITEM_TYPE_MULTI
+			text				@SPMOD_ANTIALIASING
+			cvar				"r_ext_multisample"
+			cvarFloatList		{  @MENUS_OFF 0 "MSAA 2x" 2 "MSAA 4x" 4 "MSAA 8x" 8 }
 			rect				260 375 340 14
-	   		textalign			ITEM_ALIGN_RIGHT
+			textalign			ITEM_ALIGN_RIGHT
 			textalignx			174
 			textaligny			0
 			font 				4
 			textscale 			1
 			forecolor			.615 .615 .956 1
 			visible				0
-			descText			@SPMOD_FBOS_DESC
-			cvarTest			"cl_renderer"
-			hideCvar			{ "rdcustomsp-vanilla" }
+			descText			@SPMOD_ANTIALIASING_DESC
 
-			mouseenter 
-			{ 
+			mouseenter
+			{
 				show			button_glow
 				setitemrect		button_glow	260 375 340 20
 			}
-			mouseexit 
-			{ 
+			mouseexit
+			{
 				hide			button_glow
 			}
-			action 
+			action
 			{
-				play			"sound/interface/button1.wav"
-			} 
+				play			"sound/interface/button1.wav" ;
+				setcvar			ui_r_modified	1 ;
+				show			applyChanges
+			}
 		}
+
 		
 
 		itemDef 
