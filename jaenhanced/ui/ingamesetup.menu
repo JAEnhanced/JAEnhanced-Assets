@@ -3146,6 +3146,46 @@
 			} 
 		}
 
+		itemDef 
+		{			
+			name				saberholster
+			group				jkenhanced
+      			type				ITEM_TYPE_MULTI
+			text				@SPMOD_HOLSTER_PLACE
+			descText			@SPMOD_HOLSTER_PLACE_DESC
+			cvar				"g_saberHolster"	
+			cvarFloatList		
+			{ 
+				@SPMOD_HOLSTER_DEFAULT		0
+				@MENUS_OFF					1
+				@SPMOD_HOLSTER_LHIP			2
+				@SPMOD_HOLSTER_RHIP			3
+				@SPMOD_HOLSTER_LBACK		4
+				@SPMOD_HOLSTER_RBACK		5
+			}
+			rect				260 356 340 14
+	   		textalign			ITEM_ALIGN_RIGHT
+			textalignx			174
+			textaligny			0
+			font 				4
+			textscale 			1
+			forecolor			.615 .615 .956 1
+			visible				0
+
+			mouseenter 
+			{ 
+				show			highlight13
+			}
+			mouseexit 
+			{ 
+				hide			highlight13
+			}
+			action 
+			{
+				play			"sound/interface/button1.wav" ; 
+			} 
+		}
+
 //----------------------------------------------------------------------------------------------
 //	JKENHANCED - CHEATS
 //----------------------------------------------------------------------------------------------

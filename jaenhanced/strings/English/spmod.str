@@ -391,6 +391,27 @@ LANG_ENGLISH        "Saber ignition speed:"
 REFERENCE           IGNITIONSPEED_DESC
 LANG_ENGLISH        "Scale speed at which lightsaber ignites"
 
+REFERENCE           HOLSTER_PLACE
+LANG_ENGLISH        "Holster Position:"
+
+REFERENCE           HOLSTER_PLACE_DESC
+LANG_ENGLISH        "Where everyone's lightsabers are holstered. Saber Default uses each saber's own setting."
+
+REFERENCE           HOLSTER_DEFAULT
+LANG_ENGLISH        "Saber Default"
+
+REFERENCE           HOLSTER_LHIP
+LANG_ENGLISH        "Left Hip"
+
+REFERENCE           HOLSTER_RHIP
+LANG_ENGLISH        "Right Hip"
+
+REFERENCE           HOLSTER_LBACK
+LANG_ENGLISH        "Left Shoulder"
+
+REFERENCE           HOLSTER_RBACK
+LANG_ENGLISH        "Right Shoulder"
+
 ENDMARKER
 
 
