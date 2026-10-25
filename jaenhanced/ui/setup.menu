@@ -552,6 +552,7 @@
 
 				show			setup_background ;
 				hide 			video ;
+				hide			video3 ;
 				hide			applyChanges ;
 				show			video2 ;
 				hide			vidrestart	;
