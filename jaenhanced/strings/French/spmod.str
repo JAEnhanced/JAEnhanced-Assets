@@ -1,0 +1,664 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "Custom saber specific strings"
+
+REFERENCE           CHEATS
+LANG_ENGLISH        "CHEATS"
+LANG_FRENCH         "#same"
+
+REFERENCE           CHEATS_DESC
+LANG_ENGLISH        "Commands that give you special abilities."
+LANG_FRENCH         "Commandes qui confèrent des capacités spéciales"
+
+REFERENCE           ENABLE_CHEATS
+LANG_ENGLISH        "Enable cheats:"
+LANG_FRENCH         "Activer cheats :"
+
+REFERENCE           ENABLE_CHEATS_DESC
+LANG_ENGLISH        "Allow cheats to be used. Must be on for the others on this list to work."
+LANG_FRENCH         "Autoriser les cheats. Doit être activé pour que les autres options de cette liste fonctionnent."
+
+REFERENCE           GOD
+LANG_ENGLISH        "God mode"
+LANG_FRENCH         "Mode Dieu"
+
+REFERENCE           GOD_DESC
+LANG_ENGLISH        "Enable god mode (invincibility)."
+LANG_FRENCH         "Activer le mode Dieu (invincibilité)"
+
+REFERENCE           NOTARGET
+LANG_ENGLISH        "No target mode"
+LANG_FRENCH         "Mode indétectable"
+
+REFERENCE           NOTARGET_DESC
+LANG_ENGLISH        "Enemies don't target you (invisibility)."
+LANG_FRENCH         "Les ennemis ne vous ciblent pas (invisibilité)"
+
+REFERENCE           UNDYING
+LANG_ENGLISH        "Undying mode"
+LANG_FRENCH         "Mode immortel"
+
+REFERENCE           UNDYING_DESC
+LANG_ENGLISH        "Gives 1000 health and shields."
+LANG_FRENCH         "Donne 1000 points de santé et de bouclier"
+
+REFERENCE           GIVEALL
+LANG_ENGLISH        "Give all"
+LANG_FRENCH         "Tout obtenir"
+
+REFERENCE           GIVEALL_DESC
+LANG_ENGLISH        "Give all weapons, items, health, and shields."
+LANG_FRENCH         "Obtenir toutes les armes, les objets, la santé et les boucliers"
+
+REFERENCE           DISMEMBER
+LANG_ENGLISH        "Dismemberment:"
+LANG_FRENCH         "Démembrement :"
+
+REFERENCE           DISMEMBER_DESC
+LANG_ENGLISH        "Your lightsaber's realism settings when cutting body parts."
+LANG_FRENCH         "Réalisme du sabre-laser lorsqu'il tranche des membres"
+
+REFERENCE           DISMEMBER1
+LANG_ENGLISH        "Minimal"
+LANG_FRENCH         "#same"
+
+REFERENCE           DISMEMBER1_DESC
+LANG_ENGLISH        "Only hands and feet get cut off often, corpses disappear after death."
+LANG_FRENCH         "Seuls les mains et les pieds sont souvent tranchés, les corps disparaissent après la mort."
+
+REFERENCE           DISMEMBER2
+LANG_ENGLISH        "Moderate"
+LANG_FRENCH         "Modéré"
+
+REFERENCE           DISMEMBER2_DESC
+LANG_ENGLISH        "Hands, feet, arms, legs get cut off often, corpses stick around longer."
+LANG_FRENCH         "Mains, pieds, bras et jambes souvent tranchés, les corps restent plus longtemps."
+
+REFERENCE           DISMEMBER3
+LANG_ENGLISH        "Realistic"
+LANG_FRENCH         "Réaliste"
+
+REFERENCE           DISMEMBER3_DESC
+LANG_ENGLISH        "Hands, feet, arms, legs, heads, and torsos get cut off very often. Corpses can be dismembered and never disappear."
+LANG_FRENCH         "Mains, pieds, bras, jambes, têtes et torses très souvent tranchés. Les corps peuvent être démembrés et ne disparaissent jamais."
+
+REFERENCE           SETFORCE
+LANG_ENGLISH        "Max Force levels"
+LANG_FRENCH         "Force au niveau max"
+
+REFERENCE           SETFORCE_DESC
+LANG_ENGLISH        "Set all Force powers to max level."
+LANG_FRENCH         "Régler tous les pouvoirs de la Force au niveau maximum"
+
+REFERENCE           DIFF
+LANG_ENGLISH        "Game difficulty:"
+LANG_FRENCH         "Difficulté :"
+
+REFERENCE           DIFF_DESC
+LANG_ENGLISH        "Set the game's difficulty. For Jedi Master, choose Jedi Knight and turn on Jedi Master"
+LANG_FRENCH         "Régler la difficulté du jeu. Pour Maître Jedi, choisissez Chevalier Jedi et activez Maître Jedi"
+
+REFERENCE           JEDIMASTER
+LANG_ENGLISH        "Jedi Master (half health):"
+LANG_FRENCH         "Maître Jedi (demi-santé) :"
+
+REFERENCE           JEDIMASTER_DESC
+LANG_ENGLISH        "Jedi Master difficulty is Jedi Knight with half health"
+LANG_FRENCH         "La difficulté Maître Jedi correspond à Chevalier Jedi avec moitié moins de santé"
+
+REFERENCE           CAMSP
+LANG_ENGLISH        "Photo Mode"
+LANG_FRENCH         "Mode photo"
+
+REFERENCE           CAMSP_DESC
+LANG_ENGLISH        "/uimenu camsp - Gives camera control sliders to get a nice screenshot. "
+LANG_FRENCH         "/uimenu camsp - Curseurs de contrôle de la caméra pour réussir vos captures d'écran. "
+
+REFERENCE           CUSTOM_CHAR
+LANG_ENGLISH        "CHARACTER"
+LANG_FRENCH         "PERSONNAGE"
+
+REFERENCE           CUSTOM_CHAR_DESC
+LANG_ENGLISH        "Customize your character and lightsaber."
+LANG_FRENCH         "Personnaliser votre personnage et votre sabre-laser"
+
+REFERENCE           STAFF_SABER
+LANG_ENGLISH        "Staff Lightsabers"
+LANG_FRENCH         "Doubles sabres-lasers"
+
+REFERENCE           STAFF_SABER_DESC
+LANG_ENGLISH        "Choose a double-bladed staff lightsaber."
+LANG_FRENCH         "Choisir un double sabre-laser à deux lames"
+
+REFERENCE           EMITTER
+LANG_ENGLISH        "EMITTER"
+LANG_FRENCH         "EMETTEUR"
+
+REFERENCE           POMMEL
+LANG_ENGLISH        "POMMEL"
+LANG_FRENCH         "POMMEAU"
+
+REFERENCE           HANDLE
+LANG_ENGLISH        "HANDLE"
+LANG_FRENCH         "POIGNEE"
+
+REFERENCE           BUTTONS
+LANG_ENGLISH        "BUTTONS"
+LANG_FRENCH         "BOUTONS"
+
+REFERENCE           BODY
+LANG_ENGLISH        "BODY"
+LANG_FRENCH         "CORPS"
+
+REFERENCE           CUST_LIGHTSABER
+LANG_ENGLISH        "LIGHTSABER"
+LANG_FRENCH         "SABRE-LASER"
+
+REFERENCE           CUST_LIGHTSABER_DESC
+LANG_ENGLISH        "Customize your lightsaber."
+LANG_FRENCH         "Personnaliser votre sabre-laser"
+
+REFERENCE           EMITTER_DESC
+LANG_ENGLISH        "Choose the emitter."
+LANG_FRENCH         "Choisir l'émetteur"
+
+REFERENCE           POMMEL_DESC
+LANG_ENGLISH        "Choose the pommel."
+LANG_FRENCH         "Choisir le pommeau"
+
+REFERENCE           HANDLE_DESC
+LANG_ENGLISH        "Choose the handle."
+LANG_FRENCH         "Choisir la poignée"
+
+REFERENCE           BUTTONS_DESC
+LANG_ENGLISH        "Choose the buttons."
+LANG_FRENCH         "Choisir les boutons"
+
+REFERENCE           BODY_DESC
+LANG_ENGLISH        "Choose the body."
+LANG_FRENCH         "Choisir le corps"
+
+REFERENCE           EWEB_EXIT
+LANG_ENGLISH        "Press 'JUMP' to exit.\nPress 'USE FORCE' to detach gun."
+LANG_FRENCH         "Appuyez sur Sauter pour quitter.\nAppuyez sur Utiliser pouvoir pour détacher l'arme."
+
+REFERENCE           INGAME_STASIS2
+LANG_ENGLISH        "Stasis"
+LANG_FRENCH         "Stase"
+
+REFERENCE           INGAME_BLINDING2
+LANG_ENGLISH        "Blinding"
+LANG_FRENCH         "Aveuglement"
+
+REFERENCE           INGAME_DESTRUCTION2
+LANG_ENGLISH        "Destruction"
+LANG_FRENCH         "#same"
+
+REFERENCE           INGAME_INSANITY2
+LANG_ENGLISH        "Insanity"
+LANG_FRENCH         "Folie"
+
+REFERENCE           INGAME_REPULSE2
+LANG_ENGLISH        "Repulse"
+LANG_FRENCH         "Répulsion"
+
+REFERENCE           INGAME_WEAPON_NOGHRI_STICK
+LANG_ENGLISH        "Noghri Stick"
+LANG_FRENCH         "Bâton noghri"
+
+REFERENCE           INGAME_WEAPON_TUSKEN_RIFLE
+LANG_ENGLISH        "Tusken Rifle"
+LANG_FRENCH         "Fusil tusken"
+
+REFERENCE           INGAME_WEAPON_SONIC_BLASTER
+LANG_ENGLISH        "Geonosian Sonic Blaster"
+LANG_FRENCH         "Blaster sonique géonosien"
+
+REFERENCE           INGAME_WEAPON_E5
+LANG_ENGLISH        "E-5 Carbine"
+LANG_FRENCH         "Carabine E-5"
+
+REFERENCE           INGAME_WEAPON_DC15S
+LANG_ENGLISH        "DC-15S Carbine"
+LANG_FRENCH         "Carabine DC-15S"
+
+REFERENCE           INGAME_WEAPON_DC15A
+LANG_ENGLISH        "DC-15A Rifle"
+LANG_FRENCH         "Fusil DC-15A"
+
+REFERENCE           INGAME_WEAPON_Z6
+LANG_ENGLISH        "Z-6 Rotary Cannon"
+LANG_FRENCH         "Canon rotatif Z-6"
+
+REFERENCE           INGAME_MELEE_DESC
+LANG_ENGLISH        "Melee  \nWhen applied to a face a fist causes damage.\nPrimary Fire - Throws a punch.\nSecondary Fire - Throws a punch.\nAmmo Type - N/A"
+LANG_FRENCH         "Mêlée  \nAppliqué au visage, un poing inflige des dégâts.\nTir principal - Donne un coup de poing.\nTir secondaire - Donne un coup de poing.\nMunitions - Aucune"
+
+REFERENCE           INGAME_TUSKEN_RIFLE_DESC
+LANG_ENGLISH        "Tusken Rifle  \nThe Tusken Rifle fires a highly damaging projectile.\nPrimary Fire - Melee attack.\nSecondary Fire - Fires a sniper projectile shot that is highly damaging.\nAmmo Type - Power cell"
+LANG_FRENCH         "Fusil tusken  \nLe fusil tusken tire un projectile très dévastateur.\nTir principal - Attaque de mêlée.\nTir secondaire - Tir de précision très dévastateur.\nMunitions - Cellule énergétique"
+
+REFERENCE           INGAME_NOGHRI_STICK_DESC
+LANG_ENGLISH        "Noghri Stick  \nThe Noghri Stick fires a ball of poisonous gas.\nPrimary Fire - Fires a ball of poisionous gas that does damage over time.\nSecondary Fire - Melee attack.\nAmmo Type - Power cell"
+LANG_FRENCH         "Bâton noghri  \nLe bâton noghri projette une boule de gaz toxique.\nTir principal - Projette une boule de gaz toxique qui inflige des dégâts dans la durée.\nTir secondaire - Attaque de mêlée.\nMunitions - Cellule énergétique"
+
+REFERENCE           INGAME_SONIC_BLASTER_DESC
+LANG_ENGLISH        "Geonosian Sonic Blaster  \nThe Sonic Blaster fires a wave of sound.\nPrimary Fire - Fires a concentrated shot.\nSecondary Fire - Fires a dispersed sound wave that knocks over enemies.\nAmmo Type - Power cell"
+LANG_FRENCH         "Blaster sonique géonosien  \nLe blaster sonique émet une onde sonore.\nTir principal - Tir concentré.\nTir secondaire - Onde sonore dispersée qui renverse les ennemis.\nMunitions - Cellule énergétique"
+
+REFERENCE           INGAME_E5_CARBINE_DESC
+LANG_ENGLISH        "E-5 Carbine  \nThe E-5 Carbine has similar accuracy and damage to an E-11 Blaster Rifle.\nPrimary Fire - Slow, single shot with moderate accuracy and great damage.\nSecondary Fire - Rapid, burst fire with low accuracy and expanded firing area.\nAmmo Type - Blaster Pack"
+LANG_FRENCH         "Carabine E-5  \nLa carabine E-5 a une précision et une puissance semblables à celles du fusil blaster E-11.\nTir principal - Tir unique lent, moyennement précis mais très puissant.\nTir secondaire - Rapide, il tire sans grande précision et dans un champ plus important.\nMunitions - Pack blaster"
+
+REFERENCE           INGAME_DC15S_CARBINE_DESC
+LANG_ENGLISH        "DC-15S Carbine  \nThe DC-15S Carbine has similar accuracy and damage to an E-11 Blaster Rifle.\nPrimary Fire - Slow, single shot with moderate accuracy and great damage.\nSecondary Fire - Rapid, burst fire with low accuracy and expanded firing area.\nAmmo Type - Blaster Pack"
+LANG_FRENCH         "Carabine DC-15S  \nLa carabine DC-15S a une précision et une puissance semblables à celles du fusil blaster E-11.\nTir principal - Tir unique lent, moyennement précis mais très puissant.\nTir secondaire - Rapide, il tire sans grande précision et dans un champ plus important.\nMunitions - Pack blaster"
+
+REFERENCE           INGAME_DC15A_RIFLE_DESC
+LANG_ENGLISH        "DC-15A Rifle  \nThe DC-15A Rifle has slow rate of fire, but does heavy damage.\nPrimary Fire - Very slow, single shot with good accuracy and great damage.\nSecondary Fire - Slow single shot with good accuracy, great damage, and heavier ammo drain.\nAmmo Type - Blaster Pack"
+LANG_FRENCH         "Fusil DC-15A  \nLe fusil DC-15A a une faible cadence de tir mais inflige de lourds dégâts.\nTir principal - Tir unique très lent, précis et très puissant.\nTir secondaire - Tir unique lent, précis et très puissant, mais plus gourmand en munitions.\nMunitions - Pack blaster"
+
+REFERENCE           INGAME_Z6_ROTARY_DESC
+LANG_ENGLISH        "Z-6 Rotary Cannon  \nThe Z-6 Rotary Cannon has an extremely high rate of fire and works well in a suppressive capacity. \nPrimary Fire - Fully automatic blaster fire.\nSecondary Fire - Slower rate of fire to conserve ammunition.\nAmmo Type - Blaster Pack"
+LANG_FRENCH         "Canon rotatif Z-6  \nLe canon rotatif Z-6 a une cadence de tir extrêmement élevée, idéale pour les tirs de couverture. \nTir principal - Tir blaster entièrement automatique.\nTir secondaire - Cadence de tir réduite pour économiser les munitions.\nMunitions - Pack blaster"
+
+REFERENCE           SFX_SABERS
+LANG_ENGLISH        "SFX Sabers:"
+LANG_FRENCH         "Sabres SFX :"
+
+REFERENCE           SFX_SABERS_DESC
+LANG_ENGLISH        "AJL's SFX lightsaber blades."
+LANG_FRENCH         "Lames de sabre-laser SFX d'AJL"
+
+REFERENCE           MPMOVEMENT
+LANG_ENGLISH        "MP Movement:"
+LANG_FRENCH         "Mouvement multi :"
+
+REFERENCE           MPMOVEMENT_DESC
+LANG_ENGLISH        "Multiplayer-style bunnyhopping."
+LANG_FRENCH         "Sauts enchaînés (bunny hop) comme en multijoueur"
+
+REFERENCE           FLIPPED_HOLSTERS
+LANG_ENGLISH        "Flipped Holsters:"
+LANG_FRENCH         "Rengainage inversé :"
+
+REFERENCE           FLIPPED_HOLSTERS_DESC
+LANG_ENGLISH        "Lightsabers are holstered upside down."
+LANG_FRENCH         "Les sabres-lasers sont rengainés à l'envers"
+
+REFERENCE           IGNITE_FLARE
+LANG_ENGLISH        "Ignition Flare:"
+LANG_FRENCH         "Halo d'allumage :"
+
+REFERENCE           IGNITE_FLARE_DESC
+LANG_ENGLISH        "Display a flare when a lightsaber is ignited."
+LANG_FRENCH         "Afficher un halo lorsqu'un sabre-laser est allumé"
+
+REFERENCE           IGNITE_TWIRL
+LANG_ENGLISH        "Ignition Twirl:"
+LANG_FRENCH         "Moulinet d'allumage :"
+
+REFERENCE           IGNITE_TWIRL_DESC
+LANG_ENGLISH        "Twirl the lightsaber when turning on and off."
+LANG_FRENCH         "Faire tournoyer le sabre-laser à l'allumage et à l'extinction"
+
+REFERENCE           JKENHANCED
+LANG_ENGLISH        "JA: Enhanced"
+LANG_FRENCH         "#same"
+
+REFERENCE           JKENHANCED_OPTIONS_DESC
+LANG_ENGLISH        "Configure JA: Enhanced options."
+LANG_FRENCH         "Configurer les options de JA: Enhanced"
+
+REFERENCE           STASIS
+LANG_ENGLISH        "Stasis:"
+LANG_FRENCH         "Stase :"
+
+REFERENCE           INSANITY
+LANG_ENGLISH        "Insanity:"
+LANG_FRENCH         "Folie :"
+
+REFERENCE           DESTRUCTION
+LANG_ENGLISH        "Destruction:"
+LANG_FRENCH         "Destruction :"
+
+REFERENCE           BLINDING
+LANG_ENGLISH        "Blinding:"
+LANG_FRENCH         "Aveuglement :"
+
+REFERENCE           REPULSE
+LANG_ENGLISH        "Repulse:"
+LANG_FRENCH         "Répulsion :"
+
+REFERENCE           USES_STASIS_FORCE_ABILITY
+LANG_ENGLISH        "Uses Force Stasis ability."
+LANG_FRENCH         "Utiliser le pouvoir de Stase"
+
+REFERENCE           USES_INSANITY_FORCE_ABILITY
+LANG_ENGLISH        "Uses Force Insanity ability."
+LANG_FRENCH         "Utiliser le pouvoir de Folie"
+
+REFERENCE           USES_DESTRUCTION_FORCE_ABILITY
+LANG_ENGLISH        "Uses Force Destruction ability."
+LANG_FRENCH         "Utiliser le pouvoir de Destruction"
+
+REFERENCE           USES_BLINDING_FORCE_ABILITY
+LANG_ENGLISH        "Uses Force Blinding ability."
+LANG_FRENCH         "Utiliser le pouvoir d'Aveuglement"
+
+REFERENCE           USES_REPULSE_FORCE_ABILITY
+LANG_ENGLISH        "Uses Force Repulse ability."
+LANG_FRENCH         "Utiliser le pouvoir de Répulsion"
+
+REFERENCE           SABER_THROW
+LANG_ENGLISH        "Saber Throw:"
+LANG_FRENCH         "Lancer de sabre :"
+
+REFERENCE           USES_SABER_THROW
+LANG_ENGLISH        "Throws lightsaber."
+LANG_FRENCH         "Lancer le sabre-laser"
+
+REFERENCE           INGAME_FORCE_STASIS_DESC
+LANG_ENGLISH        "Force Stasis\nDuration: Variable\nArea of Effect: Objects or persons\nEffect: Allows Jedi to paralyse a living being or droid\n\n"
+LANG_FRENCH         "Stase\nEffet : variable\nSur : objets ou personnes\nRésultat : permet au Jedi de paralyser un être vivant ou un droïde\n\n"
+
+REFERENCE           INGAME_FORCE_DESTRUCTION_DESC
+LANG_ENGLISH        "Force Destruction\nDuration: Instant\nArea of Effect: Projectile\nEffect: Allows Jedi to launch a projectile of force energy\n\n"
+LANG_FRENCH         "Destruction\nEffet : instantané\nSur : projectile\nRésultat : permet au Jedi de lancer un projectile d'énergie de la Force\n\n"
+
+REFERENCE           INGAME_FORCE_INSANITY_DESC
+LANG_ENGLISH        "Force Insanity\nDuration: Variable\nArea of Effect: Living persons only\nEffect: Allows Jedi to wrack mind of an enemy\n\n"
+LANG_FRENCH         "Folie\nEffet : variable\nSur : êtres vivants uniquement\nRésultat : permet au Jedi de tourmenter l'esprit d'un ennemi\n\n"
+
+REFERENCE           INGAME_FORCE_REPULSE_DESC
+LANG_ENGLISH        "Force Repulse\nDuration: Instant\nArea of Effect: Near Jedi\nEffect: Allows Jedi to push and damage nearby enemies\n\n"
+LANG_FRENCH         "Répulsion\nEffet : instantané\nSur : autour du Jedi\nRésultat : permet au Jedi de repousser et de blesser les ennemis proches\n\n"
+
+REFERENCE           INGAME_FORCE_STASIS_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi paralyses a single enemy for 5 seconds."
+LANG_FRENCH         "Niveau 1 - Le Jedi paralyse un seul ennemi pendant 5 secondes."
+
+REFERENCE           INGAME_FORCE_STASIS_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi paralyses a single enemy for 10 seconds."
+LANG_FRENCH         "Niveau 2 - Le Jedi paralyse un seul ennemi pendant 10 secondes."
+
+REFERENCE           INGAME_FORCE_STASIS_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi paralyses a single enemy for 15 seconds."
+LANG_FRENCH         "Niveau 3 - Le Jedi paralyse un seul ennemi pendant 15 secondes."
+
+REFERENCE           INGAME_FORCE_INSANITY_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi wracks the mind of a single enemy for 5 seconds."
+LANG_FRENCH         "Niveau 1 - Le Jedi tourmente l'esprit d'un seul ennemi pendant 5 secondes."
+
+REFERENCE           INGAME_FORCE_INSANITY_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi wracks the mind of a single enemy for 10 seconds."
+LANG_FRENCH         "Niveau 2 - Le Jedi tourmente l'esprit d'un seul ennemi pendant 10 secondes."
+
+REFERENCE           INGAME_FORCE_INSANITY_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi wracks the mind of a single enemy for 15 seconds. The enemy then dies."
+LANG_FRENCH         "Niveau 3 - Le Jedi tourmente l'esprit d'un seul ennemi pendant 15 secondes. L'ennemi meurt ensuite."
+
+REFERENCE           INGAME_FORCE_DESTRUCTION_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi launches an orb of force energy."
+LANG_FRENCH         "Niveau 1 - Le Jedi lance une sphère d'énergie de la Force."
+
+REFERENCE           INGAME_FORCE_DESTRUCTION_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi launches a more powerful orb of force energy."
+LANG_FRENCH         "Niveau 2 - Le Jedi lance une sphère d'énergie de la Force plus puissante."
+
+REFERENCE           INGAME_FORCE_DESTRUCTION_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi launches an extremely dangerous orb of force energy."
+LANG_FRENCH         "Niveau 3 - Le Jedi lance une sphère d'énergie de la Force extrêmement dangereuse."
+
+REFERENCE           INGAME_FORCE_REPULSE_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi pushes enemies within a small radius. If power is charged, enemies take damage depending on charge time."
+LANG_FRENCH         "Niveau 1 - Le Jedi repousse les ennemis dans un petit rayon. Si le pouvoir est chargé, les ennemis subissent des dégâts selon la durée de charge."
+
+REFERENCE           INGAME_FORCE_REPULSE_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi pushes enemies within a medium radius. If power is charged, enemies take damage depending on charge time."
+LANG_FRENCH         "Niveau 2 - Le Jedi repousse les ennemis dans un rayon moyen. Si le pouvoir est chargé, les ennemis subissent des dégâts selon la durée de charge."
+
+REFERENCE           INGAME_FORCE_REPULSE_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi pushes enemies within a large radius. If power is charged, enemies take damage depending on charge time."
+LANG_FRENCH         "Niveau 3 - Le Jedi repousse les ennemis dans un grand rayon. Si le pouvoir est chargé, les ennemis subissent des dégâts selon la durée de charge."
+
+REFERENCE           TRUE_GUNS
+LANG_ENGLISH        "TrueView Guns:"
+LANG_FRENCH         "Armes TrueView :"
+
+REFERENCE           FPLS
+LANG_ENGLISH        "TrueView Lightsaber:"
+LANG_FRENCH         "Sabre-laser TrueView :"
+
+REFERENCE           TRUE_GUNS_DESC
+LANG_ENGLISH        "TrueView first person view for guns."
+LANG_FRENCH         "Vue à la 1re personne TrueView pour les armes à feu"
+
+REFERENCE           FPLS_DESC
+LANG_ENGLISH        "First person lightsaber option using TrueView."
+LANG_FRENCH         "Sabre-laser à la 1re personne avec TrueView"
+
+REFERENCE           EDIT_CUSTOM
+LANG_ENGLISH        "Build your lightsaber."
+LANG_FRENCH         "Construire votre sabre-laser"
+
+REFERENCE           EDIT_CUSTOM2
+LANG_ENGLISH        "Build your lightsaber."
+LANG_FRENCH         "Construire votre sabre-laser"
+
+REFERENCE           CUSTOM_SABER_X
+LANG_ENGLISH        "COMPLETE"
+LANG_FRENCH         "TERMINER"
+
+REFERENCE           CUSTOM_SABER_CLOSE
+LANG_ENGLISH        "Finish building lightsaber."
+LANG_FRENCH         "Terminer la construction du sabre-laser"
+
+REFERENCE           FBOS
+LANG_ENGLISH        "Framebuffer objects:"
+LANG_FRENCH         "Objets framebuffer :"
+
+REFERENCE           FBOS_DESC
+LANG_ENGLISH        "Toggle framebuffer objects on or off."
+LANG_FRENCH         "Activer ou désactiver les objets framebuffer"
+
+REFERENCE           RENDERER
+LANG_ENGLISH        "Renderer:"
+LANG_FRENCH         "Moteur de rendu :"
+
+REFERENCE           VANILLA
+LANG_ENGLISH        "Vanilla"
+LANG_FRENCH         "Original"
+
+REFERENCE           RENDSAURUS
+LANG_ENGLISH        "rendsaurus"
+LANG_FRENCH         "#same"
+
+REFERENCE           RENDERER_DESC
+LANG_ENGLISH        "Select which renderer is used."
+LANG_FRENCH         "Choisir le moteur de rendu utilisé"
+
+REFERENCE           ROTATE_DESC
+LANG_ENGLISH        "Click and drag to rotate."
+LANG_FRENCH         "Cliquer et glisser pour pivoter"
+
+REFERENCE           IDLEANIMS
+LANG_ENGLISH        "Idle Animations:"
+LANG_FRENCH         "Animations d'attente :"
+
+REFERENCE           IDLEANIMS_DESC
+LANG_ENGLISH        "Play idle animations when no input detected"
+LANG_FRENCH         "Jouer des animations d'attente en l'absence d'action du joueur"
+
+REFERENCE           RATIOFIX
+LANG_ENGLISH        "Widescreen Fix:"
+LANG_FRENCH         "Ecran large :"
+
+REFERENCE           RATIOFIX_DESC
+LANG_ENGLISH        "Correct UI aspect ratio based on current resolution."
+LANG_FRENCH         "Corriger le format de l'interface selon la résolution actuelle"
+
+REFERENCE           IGNITIONSPEED
+LANG_ENGLISH        "Saber ignition speed:"
+LANG_FRENCH         "Vitesse d'allumage :"
+
+REFERENCE           IGNITIONSPEED_DESC
+LANG_ENGLISH        "Scale speed at which lightsaber ignites"
+LANG_FRENCH         "Ajuster la vitesse d'allumage du sabre-laser"
+
+REFERENCE           HOLSTER_PLACE
+LANG_ENGLISH        "Holster Position:"
+LANG_FRENCH         "Sabre rengainé :"
+
+REFERENCE           HOLSTER_PLACE_DESC
+LANG_ENGLISH        "Where everyone's lightsabers are holstered. Saber Default uses each saber's own setting."
+LANG_FRENCH         "Emplacement des sabres-lasers rengainés de tous les personnages. Défaut du sabre utilise le réglage propre à chaque sabre."
+
+REFERENCE           HOLSTER_DEFAULT
+LANG_ENGLISH        "Saber Default"
+LANG_FRENCH         "Défaut du sabre"
+
+REFERENCE           HOLSTER_LHIP
+LANG_ENGLISH        "Left Hip"
+LANG_FRENCH         "Hanche gauche"
+
+REFERENCE           HOLSTER_RHIP
+LANG_ENGLISH        "Right Hip"
+LANG_FRENCH         "Hanche droite"
+
+REFERENCE           HOLSTER_LBACK
+LANG_ENGLISH        "Left Shoulder"
+LANG_FRENCH         "Epaule gauche"
+
+REFERENCE           HOLSTER_RBACK
+LANG_ENGLISH        "Right Shoulder"
+LANG_FRENCH         "Epaule droite"
+
+REFERENCE           REND2
+LANG_ENGLISH        "Rend2"
+LANG_FRENCH         "#same"
+
+REFERENCE           ANTIALIASING
+LANG_ENGLISH        "Antialiasing:"
+LANG_FRENCH         "Anticrénelage :"
+
+REFERENCE           ANTIALIASING_DESC
+LANG_ENGLISH        "Multisample antialiasing. Takes effect when the changes are applied."
+LANG_FRENCH         "Anticrénelage multi-échantillons. Prend effet à l'application des modifications."
+
+REFERENCE           REND2_SETTINGS
+LANG_ENGLISH        "Rend2 Settings"
+LANG_FRENCH         "Paramètres Rend2"
+
+REFERENCE           REND2_SETTINGS_DESC
+LANG_ENGLISH        "Configure the advanced features of the rend2 renderer."
+LANG_FRENCH         "Configurer les fonctions avancées du moteur de rendu rend2"
+
+REFERENCE           REND2_BACK
+LANG_ENGLISH        "Back"
+LANG_FRENCH         "Retour"
+
+REFERENCE           REND2_BACK_DESC
+LANG_ENGLISH        "Return to the video settings."
+LANG_FRENCH         "Revenir aux paramètres vidéo"
+
+REFERENCE           HDR
+LANG_ENGLISH        "HDR:"
+LANG_FRENCH         "HDR :"
+
+REFERENCE           HDR_DESC
+LANG_ENGLISH        "Render in a high dynamic range colour space."
+LANG_FRENCH         "Rendu dans un espace colorimétrique à grande gamme dynamique"
+
+REFERENCE           TONEMAP
+LANG_ENGLISH        "Tonemapping:"
+LANG_FRENCH         "Mappage tonal :"
+
+REFERENCE           TONEMAP_DESC
+LANG_ENGLISH        "Map HDR colours back into the display range."
+LANG_FRENCH         "Ramener les couleurs HDR dans la plage de l'écran"
+
+REFERENCE           AUTOEXPOSURE
+LANG_ENGLISH        "Auto exposure:"
+LANG_FRENCH         "Exposition auto :"
+
+REFERENCE           AUTOEXPOSURE_DESC
+LANG_ENGLISH        "Adapt the exposure to the brightness of the scene."
+LANG_FRENCH         "Adapter l'exposition à la luminosité de la scène"
+
+REFERENCE           HDR_LIGHTMAPS
+LANG_ENGLISH        "HDR lighting data:"
+LANG_FRENCH         "Eclairage HDR :"
+
+REFERENCE           HDR_LIGHTMAPS_DESC
+LANG_ENGLISH        "Load HDR lightmaps. Needs maps compiled with rend2 lighting data."
+LANG_FRENCH         "Charger les lightmaps HDR. Nécessite des cartes compilées avec les données d'éclairage de rend2."
+
+REFERENCE           DELUXEMAPPING
+LANG_ENGLISH        "Deluxemapping:"
+LANG_FRENCH         "Deluxemapping :"
+
+REFERENCE           DELUXEMAPPING_DESC
+LANG_ENGLISH        "Normal and specular mapping on world geometry."
+LANG_FRENCH         "Normal mapping et specular mapping sur la géométrie du décor"
+
+REFERENCE           DELUXE_SPECULAR
+LANG_ENGLISH        "Deluxemap specular:"
+LANG_FRENCH         "Spéculaire deluxemap :"
+
+REFERENCE           DELUXE_SPECULAR_DESC
+LANG_ENGLISH        "Scale the specular response from deluxemaps."
+LANG_FRENCH         "Ajuster l'intensité spéculaire des deluxemaps"
+
+REFERENCE           CUBEMAPPING
+LANG_ENGLISH        "Cubemapping:"
+LANG_FRENCH         "Cubemapping :"
+
+REFERENCE           CUBEMAPPING_DESC
+LANG_ENGLISH        "Render cubemaps for reflections."
+LANG_FRENCH         "Générer des cubemaps pour les reflets"
+
+REFERENCE           CUBEMAP_BOUNCES
+LANG_ENGLISH        "Cubemap bounces:"
+LANG_FRENCH         "Rebonds cubemap :"
+
+REFERENCE           CUBEMAP_BOUNCES_DESC
+LANG_ENGLISH        "How many reflection bounces to render in cubemaps."
+LANG_FRENCH         "Nombre de rebonds de réflexion calculés dans les cubemaps"
+
+REFERENCE           PARALLAX
+LANG_ENGLISH        "Parallax occlusion mapping:"
+LANG_FRENCH         "Occlusion parallaxe :"
+
+REFERENCE           PARALLAX_DESC
+LANG_ENGLISH        "Needs materials with height maps."
+LANG_FRENCH         "Nécessite des matériaux avec des cartes de hauteur"
+
+REFERENCE           GEN_NORMALMAPS
+LANG_ENGLISH        "Generate normal maps:"
+LANG_FRENCH         "Générer les normal maps :"
+
+REFERENCE           GEN_NORMALMAPS_DESC
+LANG_ENGLISH        "Generate normal maps from the diffuse textures."
+LANG_FRENCH         "Générer des normal maps à partir des textures diffuses"
+
+REFERENCE           SSAO
+LANG_ENGLISH        "SSAO:"
+LANG_FRENCH         "SSAO :"
+
+REFERENCE           SSAO_DESC
+LANG_ENGLISH        "Screen space ambient occlusion."
+LANG_FRENCH         "Occlusion ambiante en espace écran"
+
+ENDMARKER
