@@ -415,3 +415,89 @@ LANG_ENGLISH        "Right Shoulder"
 ENDMARKER
 
 
+REFERENCE			REND2
+LANG_ENGLISH		"Rend2"
+
+REFERENCE			ANTIALIASING
+LANG_ENGLISH		"Antialiasing:"
+
+REFERENCE			ANTIALIASING_DESC
+LANG_ENGLISH		"Multisample antialiasing. Takes effect when the changes are applied."
+
+REFERENCE			REND2_SETTINGS
+LANG_ENGLISH		"Rend2 Settings"
+
+REFERENCE			REND2_SETTINGS_DESC
+LANG_ENGLISH		"Configure the advanced features of the rend2 renderer."
+
+REFERENCE			REND2_BACK
+LANG_ENGLISH		"Back"
+
+REFERENCE			REND2_BACK_DESC
+LANG_ENGLISH		"Return to the video settings."
+
+REFERENCE			HDR
+LANG_ENGLISH		"HDR:"
+
+REFERENCE			HDR_DESC
+LANG_ENGLISH		"Render in a high dynamic range colour space."
+
+REFERENCE			TONEMAP
+LANG_ENGLISH		"Tonemapping:"
+
+REFERENCE			TONEMAP_DESC
+LANG_ENGLISH		"Map HDR colours back into the display range."
+
+REFERENCE			AUTOEXPOSURE
+LANG_ENGLISH		"Auto exposure:"
+
+REFERENCE			AUTOEXPOSURE_DESC
+LANG_ENGLISH		"Adapt the exposure to the brightness of the scene."
+
+REFERENCE			HDR_LIGHTMAPS
+LANG_ENGLISH		"HDR lighting data:"
+
+REFERENCE			HDR_LIGHTMAPS_DESC
+LANG_ENGLISH		"Load HDR lightmaps. Needs maps compiled with rend2 lighting data."
+
+REFERENCE			DELUXEMAPPING
+LANG_ENGLISH		"Deluxemapping:"
+
+REFERENCE			DELUXEMAPPING_DESC
+LANG_ENGLISH		"Normal and specular mapping on world geometry."
+
+REFERENCE			DELUXE_SPECULAR
+LANG_ENGLISH		"Deluxemap specular:"
+
+REFERENCE			DELUXE_SPECULAR_DESC
+LANG_ENGLISH		"Scale the specular response from deluxemaps."
+
+REFERENCE			CUBEMAPPING
+LANG_ENGLISH		"Cubemapping:"
+
+REFERENCE			CUBEMAPPING_DESC
+LANG_ENGLISH		"Render cubemaps for reflections."
+
+REFERENCE			CUBEMAP_BOUNCES
+LANG_ENGLISH		"Cubemap bounces:"
+
+REFERENCE			CUBEMAP_BOUNCES_DESC
+LANG_ENGLISH		"How many reflection bounces to render in cubemaps."
+
+REFERENCE			PARALLAX
+LANG_ENGLISH		"Parallax occlusion mapping:"
+
+REFERENCE			PARALLAX_DESC
+LANG_ENGLISH		"Needs materials with height maps."
+
+REFERENCE			GEN_NORMALMAPS
+LANG_ENGLISH		"Generate normal maps:"
+
+REFERENCE			GEN_NORMALMAPS_DESC
+LANG_ENGLISH		"Generate normal maps from the diffuse textures."
+
+REFERENCE			SSAO
+LANG_ENGLISH		"SSAO:"
+
+REFERENCE			SSAO_DESC
+LANG_ENGLISH		"Screen space ambient occlusion."
