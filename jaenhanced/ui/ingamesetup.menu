@@ -3653,7 +3653,7 @@
 			group				cheats
       			type				ITEM_TYPE_MULTI
 			text				@SPMOD_ENABLE_CHEATS
-			descText			@SPMOD_ENABLE_DESC
+			descText			@SPMOD_ENABLE_CHEATS_DESC
 			cvar				"helpusobi"
 			cvarFloatList		
 			{  

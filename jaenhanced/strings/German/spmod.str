@@ -1,0 +1,664 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "Custom saber specific strings"
+
+REFERENCE           CHEATS
+LANG_ENGLISH        "CHEATS"
+LANG_GERMAN         "#same"
+
+REFERENCE           CHEATS_DESC
+LANG_ENGLISH        "Commands that give you special abilities."
+LANG_GERMAN         "Befehle, die Ihnen besondere Fähigkeiten verleihen."
+
+REFERENCE           ENABLE_CHEATS
+LANG_ENGLISH        "Enable cheats:"
+LANG_GERMAN         "Cheats aktivieren:"
+
+REFERENCE           ENABLE_CHEATS_DESC
+LANG_ENGLISH        "Allow cheats to be used. Must be on for the others on this list to work."
+LANG_GERMAN         "Erlaubt die Nutzung von Cheats. Muss für alle anderen Einträge dieser Liste aktiviert sein."
+
+REFERENCE           GOD
+LANG_ENGLISH        "God mode"
+LANG_GERMAN         "Gott-Modus"
+
+REFERENCE           GOD_DESC
+LANG_ENGLISH        "Enable god mode (invincibility)."
+LANG_GERMAN         "Gott-Modus aktivieren (Unverwundbarkeit)."
+
+REFERENCE           NOTARGET
+LANG_ENGLISH        "No target mode"
+LANG_GERMAN         "Kein-Ziel-Modus"
+
+REFERENCE           NOTARGET_DESC
+LANG_ENGLISH        "Enemies don't target you (invisibility)."
+LANG_GERMAN         "Feinde nehmen Sie nicht ins Visier (Unsichtbarkeit)."
+
+REFERENCE           UNDYING
+LANG_ENGLISH        "Undying mode"
+LANG_GERMAN         "Unsterblich-Modus"
+
+REFERENCE           UNDYING_DESC
+LANG_ENGLISH        "Gives 1000 health and shields."
+LANG_GERMAN         "Gibt 1000 Gesundheit und Schild."
+
+REFERENCE           GIVEALL
+LANG_ENGLISH        "Give all"
+LANG_GERMAN         "Alles erhalten"
+
+REFERENCE           GIVEALL_DESC
+LANG_ENGLISH        "Give all weapons, items, health, and shields."
+LANG_GERMAN         "Alle Waffen, Gegenstände, Gesundheit und Schild erhalten."
+
+REFERENCE           DISMEMBER
+LANG_ENGLISH        "Dismemberment:"
+LANG_GERMAN         "Teilungen:"
+
+REFERENCE           DISMEMBER_DESC
+LANG_ENGLISH        "Your lightsaber's realism settings when cutting body parts."
+LANG_GERMAN         "Realismus Ihres Lichtschwerts beim Abtrennen von Körperteilen."
+
+REFERENCE           DISMEMBER1
+LANG_ENGLISH        "Minimal"
+LANG_GERMAN         "#same"
+
+REFERENCE           DISMEMBER1_DESC
+LANG_ENGLISH        "Only hands and feet get cut off often, corpses disappear after death."
+LANG_GERMAN         "Nur Hände und Füße werden oft abgetrennt, Leichen verschwinden nach dem Tod."
+
+REFERENCE           DISMEMBER2
+LANG_ENGLISH        "Moderate"
+LANG_GERMAN         "Mittel"
+
+REFERENCE           DISMEMBER2_DESC
+LANG_ENGLISH        "Hands, feet, arms, legs get cut off often, corpses stick around longer."
+LANG_GERMAN         "Hände, Füße, Arme und Beine werden oft abgetrennt, Leichen bleiben länger liegen."
+
+REFERENCE           DISMEMBER3
+LANG_ENGLISH        "Realistic"
+LANG_GERMAN         "Realistisch"
+
+REFERENCE           DISMEMBER3_DESC
+LANG_ENGLISH        "Hands, feet, arms, legs, heads, and torsos get cut off very often. Corpses can be dismembered and never disappear."
+LANG_GERMAN         "Hände, Füße, Arme, Beine, Köpfe und Rümpfe werden sehr oft abgetrennt. Leichen können zerteilt werden und verschwinden nie."
+
+REFERENCE           SETFORCE
+LANG_ENGLISH        "Max Force levels"
+LANG_GERMAN         "Max. Machtstufen"
+
+REFERENCE           SETFORCE_DESC
+LANG_ENGLISH        "Set all Force powers to max level."
+LANG_GERMAN         "Alle Machtkräfte auf die höchste Stufe setzen."
+
+REFERENCE           DIFF
+LANG_ENGLISH        "Game difficulty:"
+LANG_GERMAN         "Schwierigkeitsgrad:"
+
+REFERENCE           DIFF_DESC
+LANG_ENGLISH        "Set the game's difficulty. For Jedi Master, choose Jedi Knight and turn on Jedi Master"
+LANG_GERMAN         "Legt den Schwierigkeitsgrad fest. Für Jedi-Meister wählen Sie Jedi-Ritter und aktivieren Jedi-Meister"
+
+REFERENCE           JEDIMASTER
+LANG_ENGLISH        "Jedi Master (half health):"
+LANG_GERMAN         "Jedi-Meister (halbe Gesundheit):"
+
+REFERENCE           JEDIMASTER_DESC
+LANG_ENGLISH        "Jedi Master difficulty is Jedi Knight with half health"
+LANG_GERMAN         "Jedi-Meister entspricht Jedi-Ritter mit halber Gesundheit"
+
+REFERENCE           CAMSP
+LANG_ENGLISH        "Photo Mode"
+LANG_GERMAN         "Fotomodus"
+
+REFERENCE           CAMSP_DESC
+LANG_ENGLISH        "/uimenu camsp - Gives camera control sliders to get a nice screenshot. "
+LANG_GERMAN         "/uimenu camsp - Kamera-Schieberegler für schöne Screenshots. "
+
+REFERENCE           CUSTOM_CHAR
+LANG_ENGLISH        "CHARACTER"
+LANG_GERMAN         "CHARAKTER"
+
+REFERENCE           CUSTOM_CHAR_DESC
+LANG_ENGLISH        "Customize your character and lightsaber."
+LANG_GERMAN         "Passen Sie Ihren Charakter und Ihr Lichtschwert an."
+
+REFERENCE           STAFF_SABER
+LANG_ENGLISH        "Staff Lightsabers"
+LANG_GERMAN         "Doppelschwerter"
+
+REFERENCE           STAFF_SABER_DESC
+LANG_ENGLISH        "Choose a double-bladed staff lightsaber."
+LANG_GERMAN         "Wählen Sie ein Doppelschwert mit zwei Klingen."
+
+REFERENCE           EMITTER
+LANG_ENGLISH        "EMITTER"
+LANG_GERMAN         "#same"
+
+REFERENCE           POMMEL
+LANG_ENGLISH        "POMMEL"
+LANG_GERMAN         "KNAUF"
+
+REFERENCE           HANDLE
+LANG_ENGLISH        "HANDLE"
+LANG_GERMAN         "GRIFF"
+
+REFERENCE           BUTTONS
+LANG_ENGLISH        "BUTTONS"
+LANG_GERMAN         "SCHALTER"
+
+REFERENCE           BODY
+LANG_ENGLISH        "BODY"
+LANG_GERMAN         "GEHÄUSE"
+
+REFERENCE           CUST_LIGHTSABER
+LANG_ENGLISH        "LIGHTSABER"
+LANG_GERMAN         "LICHTSCHWERT"
+
+REFERENCE           CUST_LIGHTSABER_DESC
+LANG_ENGLISH        "Customize your lightsaber."
+LANG_GERMAN         "Passen Sie Ihr Lichtschwert an."
+
+REFERENCE           EMITTER_DESC
+LANG_ENGLISH        "Choose the emitter."
+LANG_GERMAN         "Wählen Sie den Emitter."
+
+REFERENCE           POMMEL_DESC
+LANG_ENGLISH        "Choose the pommel."
+LANG_GERMAN         "Wählen Sie den Knauf."
+
+REFERENCE           HANDLE_DESC
+LANG_ENGLISH        "Choose the handle."
+LANG_GERMAN         "Wählen Sie den Griff."
+
+REFERENCE           BUTTONS_DESC
+LANG_ENGLISH        "Choose the buttons."
+LANG_GERMAN         "Wählen Sie die Schalter."
+
+REFERENCE           BODY_DESC
+LANG_ENGLISH        "Choose the body."
+LANG_GERMAN         "Wählen Sie das Gehäuse."
+
+REFERENCE           EWEB_EXIT
+LANG_ENGLISH        "Press 'JUMP' to exit.\nPress 'USE FORCE' to detach gun."
+LANG_GERMAN         "Drücken Sie 'SPRUNG' zum Verlassen.\nDrücken Sie 'KRAFT BENUTZEN', um die Waffe abzunehmen."
+
+REFERENCE           INGAME_STASIS2
+LANG_ENGLISH        "Stasis"
+LANG_GERMAN         "#same"
+
+REFERENCE           INGAME_BLINDING2
+LANG_ENGLISH        "Blinding"
+LANG_GERMAN         "Blendung"
+
+REFERENCE           INGAME_DESTRUCTION2
+LANG_ENGLISH        "Destruction"
+LANG_GERMAN         "Zerstörung"
+
+REFERENCE           INGAME_INSANITY2
+LANG_ENGLISH        "Insanity"
+LANG_GERMAN         "Wahnsinn"
+
+REFERENCE           INGAME_REPULSE2
+LANG_ENGLISH        "Repulse"
+LANG_GERMAN         "Abstoßung"
+
+REFERENCE           INGAME_WEAPON_NOGHRI_STICK
+LANG_ENGLISH        "Noghri Stick"
+LANG_GERMAN         "Noghri-Stab"
+
+REFERENCE           INGAME_WEAPON_TUSKEN_RIFLE
+LANG_ENGLISH        "Tusken Rifle"
+LANG_GERMAN         "Tusken-Gewehr"
+
+REFERENCE           INGAME_WEAPON_SONIC_BLASTER
+LANG_ENGLISH        "Geonosian Sonic Blaster"
+LANG_GERMAN         "Geonosianischer Schallblaster"
+
+REFERENCE           INGAME_WEAPON_E5
+LANG_ENGLISH        "E-5 Carbine"
+LANG_GERMAN         "E-5-Karabiner"
+
+REFERENCE           INGAME_WEAPON_DC15S
+LANG_ENGLISH        "DC-15S Carbine"
+LANG_GERMAN         "DC-15S-Karabiner"
+
+REFERENCE           INGAME_WEAPON_DC15A
+LANG_ENGLISH        "DC-15A Rifle"
+LANG_GERMAN         "DC-15A-Gewehr"
+
+REFERENCE           INGAME_WEAPON_Z6
+LANG_ENGLISH        "Z-6 Rotary Cannon"
+LANG_GERMAN         "Z-6-Rotationskanone"
+
+REFERENCE           INGAME_MELEE_DESC
+LANG_ENGLISH        "Melee  \nWhen applied to a face a fist causes damage.\nPrimary Fire - Throws a punch.\nSecondary Fire - Throws a punch.\nAmmo Type - N/A"
+LANG_GERMAN         "Nahkampf  \nEine Faust im Gesicht richtet Schaden an.\nPrimärangriff - Faustschlag.\n2. Feuermodus - Faustschlag.\nMunition - nicht zutreffend"
+
+REFERENCE           INGAME_TUSKEN_RIFLE_DESC
+LANG_ENGLISH        "Tusken Rifle  \nThe Tusken Rifle fires a highly damaging projectile.\nPrimary Fire - Melee attack.\nSecondary Fire - Fires a sniper projectile shot that is highly damaging.\nAmmo Type - Power cell"
+LANG_GERMAN         "Tusken-Gewehr  \nDas Tusken-Gewehr verschießt ein Projektil mit großer Schadenswirkung.\nPrimärangriff - Nahkampfangriff.\n2. Feuermodus - Scharfschuss mit sehr großem Schaden.\nMunition - Energiezelle"
+
+REFERENCE           INGAME_NOGHRI_STICK_DESC
+LANG_ENGLISH        "Noghri Stick  \nThe Noghri Stick fires a ball of poisonous gas.\nPrimary Fire - Fires a ball of poisionous gas that does damage over time.\nSecondary Fire - Melee attack.\nAmmo Type - Power cell"
+LANG_GERMAN         "Noghri-Stab  \nDer Noghri-Stab verschießt eine Kugel aus Giftgas.\nPrimärangriff - Verschießt eine Giftgaskugel, die mit der Zeit Schaden verursacht.\n2. Feuermodus - Nahkampfangriff.\nMunition - Energiezelle"
+
+REFERENCE           INGAME_SONIC_BLASTER_DESC
+LANG_ENGLISH        "Geonosian Sonic Blaster  \nThe Sonic Blaster fires a wave of sound.\nPrimary Fire - Fires a concentrated shot.\nSecondary Fire - Fires a dispersed sound wave that knocks over enemies.\nAmmo Type - Power cell"
+LANG_GERMAN         "Geonosianischer Schallblaster  \nDer Schallblaster feuert eine Schallwelle ab.\nPrimärangriff - Konzentrierter Schuss.\n2. Feuermodus - Breit gestreute Schallwelle, die Feinde umwirft.\nMunition - Energiezelle"
+
+REFERENCE           INGAME_E5_CARBINE_DESC
+LANG_ENGLISH        "E-5 Carbine  \nThe E-5 Carbine has similar accuracy and damage to an E-11 Blaster Rifle.\nPrimary Fire - Slow, single shot with moderate accuracy and great damage.\nSecondary Fire - Rapid, burst fire with low accuracy and expanded firing area.\nAmmo Type - Blaster Pack"
+LANG_GERMAN         "E-5-Karabiner  \nDer E-5-Karabiner hat eine ähnliche Präzision und Schadenswirkung wie das E-11-Blaster-Gewehr.\nPrimärangriff - Langsamer Einzelschuss mit mittlerer Präzision und großem Schaden.\n2. Feuermodus - Schnelles Stoßfeuer mit geringer Präzision und größerem Streubereich.\nMunition - Blaster-Pack"
+
+REFERENCE           INGAME_DC15S_CARBINE_DESC
+LANG_ENGLISH        "DC-15S Carbine  \nThe DC-15S Carbine has similar accuracy and damage to an E-11 Blaster Rifle.\nPrimary Fire - Slow, single shot with moderate accuracy and great damage.\nSecondary Fire - Rapid, burst fire with low accuracy and expanded firing area.\nAmmo Type - Blaster Pack"
+LANG_GERMAN         "DC-15S-Karabiner  \nDer DC-15S-Karabiner hat eine ähnliche Präzision und Schadenswirkung wie das E-11-Blaster-Gewehr.\nPrimärangriff - Langsamer Einzelschuss mit mittlerer Präzision und großem Schaden.\n2. Feuermodus - Schnelles Stoßfeuer mit geringer Präzision und größerem Streubereich.\nMunition - Blaster-Pack"
+
+REFERENCE           INGAME_DC15A_RIFLE_DESC
+LANG_ENGLISH        "DC-15A Rifle  \nThe DC-15A Rifle has slow rate of fire, but does heavy damage.\nPrimary Fire - Very slow, single shot with good accuracy and great damage.\nSecondary Fire - Slow single shot with good accuracy, great damage, and heavier ammo drain.\nAmmo Type - Blaster Pack"
+LANG_GERMAN         "DC-15A-Gewehr  \nDas DC-15A-Gewehr hat eine geringe Feuerrate, verursacht aber schweren Schaden.\nPrimärangriff - Sehr langsamer Einzelschuss mit guter Präzision und großem Schaden.\n2. Feuermodus - Langsamer Einzelschuss mit guter Präzision, großem Schaden und höherem Munitionsverbrauch.\nMunition - Blaster-Pack"
+
+REFERENCE           INGAME_Z6_ROTARY_DESC
+LANG_ENGLISH        "Z-6 Rotary Cannon  \nThe Z-6 Rotary Cannon has an extremely high rate of fire and works well in a suppressive capacity. \nPrimary Fire - Fully automatic blaster fire.\nSecondary Fire - Slower rate of fire to conserve ammunition.\nAmmo Type - Blaster Pack"
+LANG_GERMAN         "Z-6-Rotationskanone  \nDie Z-6-Rotationskanone hat eine extrem hohe Feuerrate und eignet sich gut für Sperrfeuer. \nPrimärangriff - Vollautomatisches Blasterfeuer.\n2. Feuermodus - Geringere Feuerrate, um Munition zu sparen.\nMunition - Blaster-Pack"
+
+REFERENCE           SFX_SABERS
+LANG_ENGLISH        "SFX Sabers:"
+LANG_GERMAN         "SFX-Schwerter:"
+
+REFERENCE           SFX_SABERS_DESC
+LANG_ENGLISH        "AJL's SFX lightsaber blades."
+LANG_GERMAN         "AJLs SFX-Lichtschwertklingen."
+
+REFERENCE           MPMOVEMENT
+LANG_ENGLISH        "MP Movement:"
+LANG_GERMAN         "MP-Bewegung:"
+
+REFERENCE           MPMOVEMENT_DESC
+LANG_ENGLISH        "Multiplayer-style bunnyhopping."
+LANG_GERMAN         "Bunnyhopping wie im Mehrspieler-Modus."
+
+REFERENCE           FLIPPED_HOLSTERS
+LANG_ENGLISH        "Flipped Holsters:"
+LANG_GERMAN         "Holster umgedreht:"
+
+REFERENCE           FLIPPED_HOLSTERS_DESC
+LANG_ENGLISH        "Lightsabers are holstered upside down."
+LANG_GERMAN         "Lichtschwerter werden verkehrt herum verstaut."
+
+REFERENCE           IGNITE_FLARE
+LANG_ENGLISH        "Ignition Flare:"
+LANG_GERMAN         "Zündblitz:"
+
+REFERENCE           IGNITE_FLARE_DESC
+LANG_ENGLISH        "Display a flare when a lightsaber is ignited."
+LANG_GERMAN         "Zeigt einen Lichtblitz, wenn ein Lichtschwert gezündet wird."
+
+REFERENCE           IGNITE_TWIRL
+LANG_ENGLISH        "Ignition Twirl:"
+LANG_GERMAN         "Zündwirbel:"
+
+REFERENCE           IGNITE_TWIRL_DESC
+LANG_ENGLISH        "Twirl the lightsaber when turning on and off."
+LANG_GERMAN         "Das Lichtschwert beim Ein- und Ausschalten herumwirbeln."
+
+REFERENCE           JKENHANCED
+LANG_ENGLISH        "JA: Enhanced"
+LANG_GERMAN         "#same"
+
+REFERENCE           JKENHANCED_OPTIONS_DESC
+LANG_ENGLISH        "Configure JA: Enhanced options."
+LANG_GERMAN         "Optionen von JA: Enhanced konfigurieren."
+
+REFERENCE           STASIS
+LANG_ENGLISH        "Stasis:"
+LANG_GERMAN         "#same"
+
+REFERENCE           INSANITY
+LANG_ENGLISH        "Insanity:"
+LANG_GERMAN         "Wahnsinn:"
+
+REFERENCE           DESTRUCTION
+LANG_ENGLISH        "Destruction:"
+LANG_GERMAN         "Zerstörung:"
+
+REFERENCE           BLINDING
+LANG_ENGLISH        "Blinding:"
+LANG_GERMAN         "Blendung:"
+
+REFERENCE           REPULSE
+LANG_ENGLISH        "Repulse:"
+LANG_GERMAN         "Abstoßung:"
+
+REFERENCE           USES_STASIS_FORCE_ABILITY
+LANG_ENGLISH        "Uses Force Stasis ability."
+LANG_GERMAN         "Setzt die Macht-Stasis ein."
+
+REFERENCE           USES_INSANITY_FORCE_ABILITY
+LANG_ENGLISH        "Uses Force Insanity ability."
+LANG_GERMAN         "Setzt den Macht-Wahnsinn ein."
+
+REFERENCE           USES_DESTRUCTION_FORCE_ABILITY
+LANG_ENGLISH        "Uses Force Destruction ability."
+LANG_GERMAN         "Setzt die Macht-Zerstörung ein."
+
+REFERENCE           USES_BLINDING_FORCE_ABILITY
+LANG_ENGLISH        "Uses Force Blinding ability."
+LANG_GERMAN         "Setzt die Macht-Blendung ein."
+
+REFERENCE           USES_REPULSE_FORCE_ABILITY
+LANG_ENGLISH        "Uses Force Repulse ability."
+LANG_GERMAN         "Setzt die Macht-Abstoßung ein."
+
+REFERENCE           SABER_THROW
+LANG_ENGLISH        "Saber Throw:"
+LANG_GERMAN         "Schwertwurf:"
+
+REFERENCE           USES_SABER_THROW
+LANG_ENGLISH        "Throws lightsaber."
+LANG_GERMAN         "Wirft das Lichtschwert."
+
+REFERENCE           INGAME_FORCE_STASIS_DESC
+LANG_ENGLISH        "Force Stasis\nDuration: Variable\nArea of Effect: Objects or persons\nEffect: Allows Jedi to paralyse a living being or droid\n\n"
+LANG_GERMAN         "Macht-Stasis\nDauer: Variabel\nWirkung auf: Objekte oder Personen\nWirkung: Ermöglicht dem Jedi, ein Lebewesen oder einen Droiden zu lähmen\n\n"
+
+REFERENCE           INGAME_FORCE_DESTRUCTION_DESC
+LANG_ENGLISH        "Force Destruction\nDuration: Instant\nArea of Effect: Projectile\nEffect: Allows Jedi to launch a projectile of force energy\n\n"
+LANG_GERMAN         "Macht-Zerstörung\nDauer: Sofortige Wirkung\nWirkung auf: Projektil\nWirkung: Ermöglicht dem Jedi, ein Projektil aus Machtenergie abzufeuern\n\n"
+
+REFERENCE           INGAME_FORCE_INSANITY_DESC
+LANG_ENGLISH        "Force Insanity\nDuration: Variable\nArea of Effect: Living persons only\nEffect: Allows Jedi to wrack mind of an enemy\n\n"
+LANG_GERMAN         "Macht-Wahnsinn\nDauer: Variabel\nWirkung auf: Nur Lebende\nWirkung: Ermöglicht dem Jedi, den Geist eines Feindes zu quälen\n\n"
+
+REFERENCE           INGAME_FORCE_REPULSE_DESC
+LANG_ENGLISH        "Force Repulse\nDuration: Instant\nArea of Effect: Near Jedi\nEffect: Allows Jedi to push and damage nearby enemies\n\n"
+LANG_GERMAN         "Macht-Abstoßung\nDauer: Sofortige Wirkung\nWirkung auf: Umgebung des Jedi\nWirkung: Ermöglicht dem Jedi, nahe Feinde wegzustoßen und zu verletzen\n\n"
+
+REFERENCE           INGAME_FORCE_STASIS_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi paralyses a single enemy for 5 seconds."
+LANG_GERMAN         "Stufe 1 - Der Jedi lähmt einen einzelnen Feind für 5 Sekunden."
+
+REFERENCE           INGAME_FORCE_STASIS_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi paralyses a single enemy for 10 seconds."
+LANG_GERMAN         "Stufe 2 - Der Jedi lähmt einen einzelnen Feind für 10 Sekunden."
+
+REFERENCE           INGAME_FORCE_STASIS_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi paralyses a single enemy for 15 seconds."
+LANG_GERMAN         "Stufe 3 - Der Jedi lähmt einen einzelnen Feind für 15 Sekunden."
+
+REFERENCE           INGAME_FORCE_INSANITY_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi wracks the mind of a single enemy for 5 seconds."
+LANG_GERMAN         "Stufe 1 - Der Jedi quält den Geist eines einzelnen Feindes für 5 Sekunden."
+
+REFERENCE           INGAME_FORCE_INSANITY_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi wracks the mind of a single enemy for 10 seconds."
+LANG_GERMAN         "Stufe 2 - Der Jedi quält den Geist eines einzelnen Feindes für 10 Sekunden."
+
+REFERENCE           INGAME_FORCE_INSANITY_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi wracks the mind of a single enemy for 15 seconds. The enemy then dies."
+LANG_GERMAN         "Stufe 3 - Der Jedi quält den Geist eines einzelnen Feindes für 15 Sekunden. Danach stirbt der Feind."
+
+REFERENCE           INGAME_FORCE_DESTRUCTION_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi launches an orb of force energy."
+LANG_GERMAN         "Stufe 1 - Der Jedi feuert eine Kugel aus Machtenergie ab."
+
+REFERENCE           INGAME_FORCE_DESTRUCTION_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi launches a more powerful orb of force energy."
+LANG_GERMAN         "Stufe 2 - Der Jedi feuert eine stärkere Kugel aus Machtenergie ab."
+
+REFERENCE           INGAME_FORCE_DESTRUCTION_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi launches an extremely dangerous orb of force energy."
+LANG_GERMAN         "Stufe 3 - Der Jedi feuert eine äußerst gefährliche Kugel aus Machtenergie ab."
+
+REFERENCE           INGAME_FORCE_REPULSE_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi pushes enemies within a small radius. If power is charged, enemies take damage depending on charge time."
+LANG_GERMAN         "Stufe 1 - Der Jedi stößt Feinde in einem kleinen Radius weg. Wird die Kraft aufgeladen, erleiden die Feinde Schaden je nach Ladedauer."
+
+REFERENCE           INGAME_FORCE_REPULSE_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi pushes enemies within a medium radius. If power is charged, enemies take damage depending on charge time."
+LANG_GERMAN         "Stufe 2 - Der Jedi stößt Feinde in einem mittleren Radius weg. Wird die Kraft aufgeladen, erleiden die Feinde Schaden je nach Ladedauer."
+
+REFERENCE           INGAME_FORCE_REPULSE_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi pushes enemies within a large radius. If power is charged, enemies take damage depending on charge time."
+LANG_GERMAN         "Stufe 3 - Der Jedi stößt Feinde in einem großen Radius weg. Wird die Kraft aufgeladen, erleiden die Feinde Schaden je nach Ladedauer."
+
+REFERENCE           TRUE_GUNS
+LANG_ENGLISH        "TrueView Guns:"
+LANG_GERMAN         "TrueView-Waffen:"
+
+REFERENCE           FPLS
+LANG_ENGLISH        "TrueView Lightsaber:"
+LANG_GERMAN         "TrueView-Lichtschwert:"
+
+REFERENCE           TRUE_GUNS_DESC
+LANG_ENGLISH        "TrueView first person view for guns."
+LANG_GERMAN         "TrueView-Ego-Perspektive für Schusswaffen."
+
+REFERENCE           FPLS_DESC
+LANG_ENGLISH        "First person lightsaber option using TrueView."
+LANG_GERMAN         "Lichtschwert in der Ego-Perspektive mit TrueView."
+
+REFERENCE           EDIT_CUSTOM
+LANG_ENGLISH        "Build your lightsaber."
+LANG_GERMAN         "Bauen Sie Ihr Lichtschwert zusammen."
+
+REFERENCE           EDIT_CUSTOM2
+LANG_ENGLISH        "Build your lightsaber."
+LANG_GERMAN         "Bauen Sie Ihr Lichtschwert zusammen."
+
+REFERENCE           CUSTOM_SABER_X
+LANG_ENGLISH        "COMPLETE"
+LANG_GERMAN         "FERTIG"
+
+REFERENCE           CUSTOM_SABER_CLOSE
+LANG_ENGLISH        "Finish building lightsaber."
+LANG_GERMAN         "Bau des Lichtschwerts abschließen."
+
+REFERENCE           FBOS
+LANG_ENGLISH        "Framebuffer objects:"
+LANG_GERMAN         "Framebuffer-Objekte:"
+
+REFERENCE           FBOS_DESC
+LANG_ENGLISH        "Toggle framebuffer objects on or off."
+LANG_GERMAN         "Framebuffer-Objekte ein- oder ausschalten."
+
+REFERENCE           RENDERER
+LANG_ENGLISH        "Renderer:"
+LANG_GERMAN         "#same"
+
+REFERENCE           VANILLA
+LANG_ENGLISH        "Vanilla"
+LANG_GERMAN         "#same"
+
+REFERENCE           RENDSAURUS
+LANG_ENGLISH        "rendsaurus"
+LANG_GERMAN         "#same"
+
+REFERENCE           RENDERER_DESC
+LANG_ENGLISH        "Select which renderer is used."
+LANG_GERMAN         "Wählt den verwendeten Renderer."
+
+REFERENCE           ROTATE_DESC
+LANG_ENGLISH        "Click and drag to rotate."
+LANG_GERMAN         "Zum Drehen klicken und ziehen."
+
+REFERENCE           IDLEANIMS
+LANG_ENGLISH        "Idle Animations:"
+LANG_GERMAN         "Warteanimationen:"
+
+REFERENCE           IDLEANIMS_DESC
+LANG_ENGLISH        "Play idle animations when no input detected"
+LANG_GERMAN         "Warteanimationen abspielen, wenn keine Eingabe erfolgt"
+
+REFERENCE           RATIOFIX
+LANG_ENGLISH        "Widescreen Fix:"
+LANG_GERMAN         "Breitbild-Fix:"
+
+REFERENCE           RATIOFIX_DESC
+LANG_ENGLISH        "Correct UI aspect ratio based on current resolution."
+LANG_GERMAN         "Seitenverhältnis der Oberfläche an die aktuelle Auflösung anpassen."
+
+REFERENCE           IGNITIONSPEED
+LANG_ENGLISH        "Saber ignition speed:"
+LANG_GERMAN         "Zündgeschwindigkeit:"
+
+REFERENCE           IGNITIONSPEED_DESC
+LANG_ENGLISH        "Scale speed at which lightsaber ignites"
+LANG_GERMAN         "Skaliert die Zündgeschwindigkeit des Lichtschwerts"
+
+REFERENCE           HOLSTER_PLACE
+LANG_ENGLISH        "Holster Position:"
+LANG_GERMAN         "Holster-Position:"
+
+REFERENCE           HOLSTER_PLACE_DESC
+LANG_ENGLISH        "Where everyone's lightsabers are holstered. Saber Default uses each saber's own setting."
+LANG_GERMAN         "Wo alle Lichtschwerter verstaut werden. Schwert-Standard nutzt die Einstellung des jeweiligen Schwerts."
+
+REFERENCE           HOLSTER_DEFAULT
+LANG_ENGLISH        "Saber Default"
+LANG_GERMAN         "Schwert-Standard"
+
+REFERENCE           HOLSTER_LHIP
+LANG_ENGLISH        "Left Hip"
+LANG_GERMAN         "Linke Hüfte"
+
+REFERENCE           HOLSTER_RHIP
+LANG_ENGLISH        "Right Hip"
+LANG_GERMAN         "Rechte Hüfte"
+
+REFERENCE           HOLSTER_LBACK
+LANG_ENGLISH        "Left Shoulder"
+LANG_GERMAN         "Linke Schulter"
+
+REFERENCE           HOLSTER_RBACK
+LANG_ENGLISH        "Right Shoulder"
+LANG_GERMAN         "Rechte Schulter"
+
+REFERENCE           REND2
+LANG_ENGLISH        "Rend2"
+LANG_GERMAN         "#same"
+
+REFERENCE           ANTIALIASING
+LANG_ENGLISH        "Antialiasing:"
+LANG_GERMAN         "Kantenglättung:"
+
+REFERENCE           ANTIALIASING_DESC
+LANG_ENGLISH        "Multisample antialiasing. Takes effect when the changes are applied."
+LANG_GERMAN         "Multisample-Kantenglättung. Wird beim Übernehmen der Änderungen wirksam."
+
+REFERENCE           REND2_SETTINGS
+LANG_ENGLISH        "Rend2 Settings"
+LANG_GERMAN         "Rend2-Optionen"
+
+REFERENCE           REND2_SETTINGS_DESC
+LANG_ENGLISH        "Configure the advanced features of the rend2 renderer."
+LANG_GERMAN         "Erweiterte Funktionen des rend2-Renderers konfigurieren."
+
+REFERENCE           REND2_BACK
+LANG_ENGLISH        "Back"
+LANG_GERMAN         "Zurück"
+
+REFERENCE           REND2_BACK_DESC
+LANG_ENGLISH        "Return to the video settings."
+LANG_GERMAN         "Zurück zu den Grafikeinstellungen."
+
+REFERENCE           HDR
+LANG_ENGLISH        "HDR:"
+LANG_GERMAN         "#same"
+
+REFERENCE           HDR_DESC
+LANG_ENGLISH        "Render in a high dynamic range colour space."
+LANG_GERMAN         "In einem Farbraum mit hohem Dynamikumfang rendern."
+
+REFERENCE           TONEMAP
+LANG_ENGLISH        "Tonemapping:"
+LANG_GERMAN         "#same"
+
+REFERENCE           TONEMAP_DESC
+LANG_ENGLISH        "Map HDR colours back into the display range."
+LANG_GERMAN         "HDR-Farben zurück in den Anzeigebereich abbilden."
+
+REFERENCE           AUTOEXPOSURE
+LANG_ENGLISH        "Auto exposure:"
+LANG_GERMAN         "Auto-Belichtung:"
+
+REFERENCE           AUTOEXPOSURE_DESC
+LANG_ENGLISH        "Adapt the exposure to the brightness of the scene."
+LANG_GERMAN         "Passt die Belichtung an die Helligkeit der Szene an."
+
+REFERENCE           HDR_LIGHTMAPS
+LANG_ENGLISH        "HDR lighting data:"
+LANG_GERMAN         "HDR-Lichtdaten:"
+
+REFERENCE           HDR_LIGHTMAPS_DESC
+LANG_ENGLISH        "Load HDR lightmaps. Needs maps compiled with rend2 lighting data."
+LANG_GERMAN         "HDR-Lightmaps laden. Erfordert Karten, die mit rend2-Lichtdaten kompiliert wurden."
+
+REFERENCE           DELUXEMAPPING
+LANG_ENGLISH        "Deluxemapping:"
+LANG_GERMAN         "#same"
+
+REFERENCE           DELUXEMAPPING_DESC
+LANG_ENGLISH        "Normal and specular mapping on world geometry."
+LANG_GERMAN         "Normal- und Specular-Mapping auf der Levelgeometrie."
+
+REFERENCE           DELUXE_SPECULAR
+LANG_ENGLISH        "Deluxemap specular:"
+LANG_GERMAN         "Deluxemap-Specular:"
+
+REFERENCE           DELUXE_SPECULAR_DESC
+LANG_ENGLISH        "Scale the specular response from deluxemaps."
+LANG_GERMAN         "Skaliert den Specular-Anteil der Deluxemaps."
+
+REFERENCE           CUBEMAPPING
+LANG_ENGLISH        "Cubemapping:"
+LANG_GERMAN         "#same"
+
+REFERENCE           CUBEMAPPING_DESC
+LANG_ENGLISH        "Render cubemaps for reflections."
+LANG_GERMAN         "Cubemaps für Reflexionen rendern."
+
+REFERENCE           CUBEMAP_BOUNCES
+LANG_ENGLISH        "Cubemap bounces:"
+LANG_GERMAN         "Cubemap-Bounces:"
+
+REFERENCE           CUBEMAP_BOUNCES_DESC
+LANG_ENGLISH        "How many reflection bounces to render in cubemaps."
+LANG_GERMAN         "Wie viele Reflexionsdurchgänge in Cubemaps gerendert werden."
+
+REFERENCE           PARALLAX
+LANG_ENGLISH        "Parallax occlusion mapping:"
+LANG_GERMAN         "Parallax-Occlusion-Mapping:"
+
+REFERENCE           PARALLAX_DESC
+LANG_ENGLISH        "Needs materials with height maps."
+LANG_GERMAN         "Erfordert Materialien mit Höhenkarten."
+
+REFERENCE           GEN_NORMALMAPS
+LANG_ENGLISH        "Generate normal maps:"
+LANG_GERMAN         "Normal-Maps erzeugen:"
+
+REFERENCE           GEN_NORMALMAPS_DESC
+LANG_ENGLISH        "Generate normal maps from the diffuse textures."
+LANG_GERMAN         "Normal-Maps aus den Diffus-Texturen erzeugen."
+
+REFERENCE           SSAO
+LANG_ENGLISH        "SSAO:"
+LANG_GERMAN         "#same"
+
+REFERENCE           SSAO_DESC
+LANG_ENGLISH        "Screen space ambient occlusion."
+LANG_GERMAN         "Umgebungsverdeckung im Bildraum (Screen Space Ambient Occlusion)."
+
+ENDMARKER

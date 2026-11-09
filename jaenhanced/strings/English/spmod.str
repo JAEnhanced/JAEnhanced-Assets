@@ -371,7 +371,7 @@ REFERENCE			RENDERER_DESC
 LANG_ENGLISH		"Select which renderer is used."
 
 REFERENCE           ROTATE_DESC
-LANG_ENGLISH        "Click and drag to rotate.
+LANG_ENGLISH        "Click and drag to rotate."
 
 REFERENCE           IDLEANIMS
 LANG_ENGLISH        "Idle Animations:"
@@ -412,7 +412,6 @@ LANG_ENGLISH        "Left Shoulder"
 REFERENCE           HOLSTER_RBACK
 LANG_ENGLISH        "Right Shoulder"
 
-ENDMARKER
 
 
 REFERENCE			REND2
@@ -501,3 +500,5 @@ LANG_ENGLISH		"SSAO:"
 
 REFERENCE			SSAO_DESC
 LANG_ENGLISH		"Screen space ambient occlusion."
+
+ENDMARKER
